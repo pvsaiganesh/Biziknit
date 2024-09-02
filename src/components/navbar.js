@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#Home">
           <img src={Logo} alt="" />
         </a>
         <button
@@ -26,27 +26,27 @@ const Navbar = () => {
         >
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase justify-content-right">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link active" aria-current="page" href="#Home">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">
+              <a class="nav-link active" href="#Home">
                 About Us
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">
+              <a class="nav-link active" href="#Home">
                 BLOGS
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">
+              <a class="nav-link active" href="#Home">
                 CONTACT
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">
+              <a class="nav-link active" href="#Home">
                 LOGIN
               </a>
             </li>
