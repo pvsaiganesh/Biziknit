@@ -1,6 +1,10 @@
 .infos-container {
   /* Rectangle 104 */
-  background: rgba(103, 102, 107, 1);
+  background: rgba(103, 102, 107, 0.3);
+  border-radius: 50px 50px 0px 0px !important;
 
   mix-blend-mode: lighter;
+}
+.max-wd-input {
+  max-width: max-content;
 }
