@@ -1,17 +1,13 @@
 import React from "react";
 import "./navbar.scss";
+import Logo from "../assets/bizikintlogo.svg";
 
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img
-            src="../../public/assets/bizikintlogo.svg"
-            alt=""
-            width="30"
-            height="24"
-          />
+          <img src={Logo} alt="" />
         </a>
         <button
           class="navbar-toggler"
