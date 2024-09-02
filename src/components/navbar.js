@@ -4,7 +4,7 @@ import Logo from "../assets/bizikintlogo.svg";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src={Logo} alt="" />
@@ -20,8 +20,11 @@ const Navbar = () => {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div
+          class="ml-auto collapse navbar-collapse text-white"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
                 Home
@@ -29,7 +32,7 @@ const Navbar = () => {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Link
+                About Us
               </a>
             </li>
             <li class="nav-item dropdown">
@@ -41,7 +44,7 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Blogs
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
@@ -64,28 +67,11 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              >
-                Disabled
-              </a>
-            </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+
+          <button class="btn btn-outline-light" type="submit">
+            Register
+          </button>
         </div>
       </div>
     </nav>
