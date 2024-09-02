@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <div class="p-5 pb-0">
-        <div class="text-light text-start d-flex flex-row justify-content-space-around">
+        <div class="text-light text-start d-flex flex-row justify-content-space-around align-items-center">
           <div>
             <p class="fs-2">
               Connect, Collaborate, and Conquer Market with Biziknit
