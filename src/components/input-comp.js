@@ -4,9 +4,9 @@ const InputComp = ({ placeholder, dropdown }) => {
   return (
     <>
       {dropdown ? (
-        <div class="dropdown p-3 mw-75">
+        <div class="dropdown p-3">
           <button
-            class="btn btn-light btn-sm dropdown-toggle"
+            class="btn btn-light btn-sm  max-wd-input text-start dropdown-toggle form-control "
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
