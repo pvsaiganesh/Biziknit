@@ -51,7 +51,10 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <button class="btn btn-outline-light" type="submit">
+              <button
+                class="btn btn-outline-light text-uppercase"
+                type="submit"
+              >
                 Register
               </button>
             </li>
