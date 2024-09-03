@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.scss";
 import Logo from "../../assets/bizikintlogo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -25,11 +26,18 @@ const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase justify-content-right">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#Home">
-                Home
-              </a>
+            <li class="nav-item ">
+              <Link to={"/"} class="text-decoration-none">
+                <a
+                  class="nav-link active text-decoration-none"
+                  aria-current="page"
+                  href="#Home"
+                >
+                  Home
+                </a>
+              </Link>
             </li>
+
             <li class="nav-item">
               <a class="nav-link active" href="#Home">
                 About Us
@@ -51,12 +59,14 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <button
-                class="btn btn-outline-light text-uppercase"
-                type="submit"
-              >
-                Register
-              </button>
+              <Link to={"/register"}>
+                <button
+                  class="btn btn-outline-light text-uppercase"
+                  type="submit"
+                >
+                  Register
+                </button>
+              </Link>
             </li>
           </ul>
         </div>

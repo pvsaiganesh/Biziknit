@@ -12,7 +12,7 @@ import "./home.scss";
 const Home = () => {
   return (
     <>
-      <div class="bg-2 p-5 pb-0">
+      <div id="home" class="bg-2 p-5 pb-0">
         <div class="text-light text-start d-flex flex-row justify-content-space-around align-items-center">
           <div>
             <p class="fs-2">

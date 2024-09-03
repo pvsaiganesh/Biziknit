@@ -2,7 +2,7 @@ import React from "react";
 
 const InputComp = ({ label, icon, button, dropdown, file }) => {
   return (
-    <div class="mb-2 p-2">
+    <div class=" p-1">
       <div class="input-group-sm">
         <label for="basic-url" class="form-label">
           {label}
@@ -57,11 +57,7 @@ const InputComp = ({ label, icon, button, dropdown, file }) => {
             aria-describedby="basic-addon3 basic-addon4 button-addon2"
           />
         )}
-        {icon && (
-          <span class="input-group-text" id="basic-addon3">
-            {icon}
-          </span>
-        )}
+        {icon}
         {button && (
           <button
             class="btn btn-outline-secondary"

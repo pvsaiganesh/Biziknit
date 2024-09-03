@@ -2,14 +2,32 @@ import "./App.css";
 import Navbar from "./components/home-components/navbar";
 import Home from "./components/home";
 import Register from "./components/register";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div id="Home" className="App">
-      <Navbar />
-      <Home />
-      <Register />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          element={
+            <>
+              <Navbar />
+              <Home />
+            </>
+          }
+          path="/"
+        ></Route>
+        <Route
+          element={
+            <div class="App">
+              <Navbar />
+              <Register />
+            </div>
+          }
+          path="/register"
+        ></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
