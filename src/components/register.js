@@ -11,7 +11,10 @@ const Register = () => {
   const ele6 = { label: "Landmark" };
   const ele7 = { label: "Pin code" };
   const ele8 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
-
+  const ele9 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
+  const ele10 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
+  const ele11 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
+  const ele12 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
   return (
     <div id="register" class="d-flex flex-row justify-content-start">
       <div class="d-flex flex-row justify-content-center align-items-center bg-3 vw-30">
@@ -24,14 +27,16 @@ const Register = () => {
         </div>
       </div>
       <div class="p-3 d-flex flex-row justify-content-center align-items-center flex-grow-1">
-        <div class="p-3 pt-2 pb-2 text-start border rounded ">
+        <div class="p-3 pt-2 pb-2 text-start border rounded w-100">
           <p class="fs-5 m-0">Register</p>
           <p class="fs-6">Hey enter your details to create your account</p>
-          <div class="text-start d-flex flex-row justify-content-between align-items-center">
+          <div class="text-start d-flex flex-row justify-content-around">
             <div class="d-flex flex-column">
               <InputComp {...ele1} />
               <InputComp {...ele2} />
               <InputComp {...ele3} />
+              <InputComp {...ele8} />
+              <InputComp {...ele8} />
               <InputComp {...ele8} />
             </div>
             <div class="d-flex flex-column">
@@ -39,6 +44,8 @@ const Register = () => {
               <InputComp {...ele5} />
               <InputComp {...ele6} />
               <InputComp {...ele7} />
+              <InputComp {...ele8} />
+              <InputComp {...ele8} />
             </div>
           </div>
           <div class="mt-3">
