@@ -5,6 +5,8 @@ import SmallInfoCard from "./small-info-card";
 import RegCard from "./reg-card.js";
 import WhatIsBiziknit from "./whatIsbiziknit.js";
 import OurValues from "./ourvalues.js";
+import Testimonials from "./testimonials.js";
+
 import "./home.scss";
 
 const Home = () => {
@@ -39,6 +41,7 @@ const Home = () => {
       <RegCard />
       <WhatIsBiziknit />
       <OurValues />
+      <Testimonials />
     </>
   );
 };
