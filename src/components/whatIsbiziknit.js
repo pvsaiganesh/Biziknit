@@ -5,8 +5,8 @@ import "./whatisbiziknit.scss";
 const WhatIsBiziknit = () => {
   return (
     <div class="d-flex flex-row justify-content-between align-items-center p-5 bg-white">
-      <div>
-        <div class="text-start">
+      <div class="pe-5">
+        <div class="text-start ">
           <p class="fs-5 headings fw-bolder">What is Biziknit?</p>
           <p class="fs-6">
             Biziknit is a group of ambitious business owners who meet every week
