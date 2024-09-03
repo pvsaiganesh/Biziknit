@@ -2,7 +2,7 @@ import React from "react";
 
 const InputComp = ({ label, icon, button, dropdown, file }) => {
   return (
-    <div class=" p-1">
+    <div class=" p-3 w-100">
       <div class="input-group-sm">
         <label for="basic-url" class="form-label">
           {label}
@@ -10,20 +10,19 @@ const InputComp = ({ label, icon, button, dropdown, file }) => {
         {dropdown ? (
           <div class="input-group">
             <input
-              type={file ? file : "text"}
+              type="text"
               class="form-control"
-              id="basic-url"
-              aria-describedby="basic-addon3 basic-addon4 button-addon2"
+              aria-label="Text input with segmented dropdown button"
             />
             <button
               type="button"
-              class="btn btn-white border dropdown-toggle dropdown-toggle-split"
+              class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               <span class="visually-hidden">Toggle Dropdown</span>
             </button>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu dropdown-menu-end">
               <li>
                 <a class="dropdown-item" href="#Home">
                   Action
@@ -52,7 +51,7 @@ const InputComp = ({ label, icon, button, dropdown, file }) => {
         ) : (
           <input
             type={file ? file : "text"}
-            class="form-control"
+            class="form-control input-group-sm"
             id="basic-url"
             aria-describedby="basic-addon3 basic-addon4 button-addon2"
           />
