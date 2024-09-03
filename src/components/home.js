@@ -3,6 +3,8 @@ import React from "react";
 import worker from "../assets/worker.png";
 import SmallInfoCard from "./small-info-card";
 import RegCard from "./reg-card.js";
+import WhatIsBiziknit from "./whatIsbiziknit.js";
+import OurValues from "./ourvalues.js";
 import "./home.scss";
 
 const Home = () => {
@@ -35,6 +37,8 @@ const Home = () => {
         </div>
       </div>
       <RegCard />
+      <WhatIsBiziknit />
+      <OurValues />
     </>
   );
 };
