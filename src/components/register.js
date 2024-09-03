@@ -48,8 +48,8 @@ const Register = () => {
               <InputComp {...ele8} />
             </div>
           </div>
-          <div class="mt-3">
-            <button type="submit" class="bg-button p-3 pt-1 pb-1">
+          <div class="mt-3 text-center">
+            <button type="submit" class="bg-button ps-3 pe-3 pt-2 pb-2">
               Register
             </button>
           </div>

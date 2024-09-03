@@ -2,7 +2,7 @@ import React from "react";
 
 const InputComp = ({ label, icon, button, dropdown, file }) => {
   return (
-    <div class=" p-3 w-100">
+    <div class=" p-1 w-100">
       <div class="input-group-sm">
         <label for="basic-url" class="form-label">
           {label}
