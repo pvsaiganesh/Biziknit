@@ -1,9 +1,9 @@
 import React from "react";
 import "./testimonials.scss";
 import TestimonialItem from "./testimonial-item";
-import testiImg from "../assets/testimonial-img-1.png";
-import testiImg2 from "../assets/testi-img2.png";
-import testiImg3 from "../assets/test-img-3.png";
+import testiImg from "../../assets/testimonial-img-1.png";
+import testiImg2 from "../../assets/testi-img2.png";
+import testiImg3 from "../../assets/test-img-3.png";
 
 const Testimonials = () => {
   return (

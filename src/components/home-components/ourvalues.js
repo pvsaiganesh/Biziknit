@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/img-2.png";
+import img from "../../assets/img-2.png";
 import "./ourvalues.scss";
 
 const OurValues = () => {

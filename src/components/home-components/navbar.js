@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.scss";
-import Logo from "../assets/bizikintlogo.svg";
+import Logo from "../../assets/bizikintlogo.svg";
 
 const Navbar = () => {
   return (

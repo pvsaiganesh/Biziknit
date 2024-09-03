@@ -1,12 +1,12 @@
 import React from "react";
 
 import worker from "../assets/worker.png";
-import SmallInfoCard from "./small-info-card";
-import RegCard from "./reg-card.js";
-import WhatIsBiziknit from "./whatIsbiziknit.js";
-import OurValues from "./ourvalues.js";
-import Testimonials from "./testimonials.js";
-import WhyJoin from "./whyjoin.js";
+import SmallInfoCard from "./home-components/small-info-card.js";
+import RegCard from "./home-components/reg-card.js";
+import WhatIsBiziknit from "./home-components/whatIsbiziknit.js";
+import OurValues from "./home-components/ourvalues.js";
+import Testimonials from "./home-components/testimonials.js";
+import WhyJoin from "./home-components/whyjoin.js";
 import "./home.scss";
 
 const Home = () => {
