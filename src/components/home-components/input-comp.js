@@ -5,31 +5,36 @@ const InputComp = ({ placeholder, dropdown }) => {
     <>
       {dropdown ? (
         <div class="dropdown p-3">
-          <button
-            class="btn btn-light btn-sm  max-wd-input text-start dropdown-toggle form-control "
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Want to Join Us
-          </button>
-          <ul class="dropdown-menu">
-            <li>
-              <a class="dropdown-item" href="#Home">
-                Action
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#Home">
-                Another action
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#Home">
-                Something else here
-              </a>
-            </li>
-          </ul>
+          <div class="btn-group ">
+            <button class="btn btn-light btn-sm" type="button">
+              Small split button
+            </button>
+            <button
+              type="button"
+              class="btn btn-sm btn-light dropdown-toggle dropdown-toggle-split"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#Home">
+                  Action
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#Home">
+                  Another action
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#Home">
+                  Something else here
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       ) : (
         <div class="input-group-sm p-3">

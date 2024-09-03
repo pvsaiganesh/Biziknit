@@ -4,7 +4,7 @@ import InputComp from "./input-comp";
 
 const RegCard = () => {
   return (
-    <div class=" bg-2 p-3 text-white d-flex flex-column justify-content-center align-items-center">
+    <div class=" bg-4 p-3 text-white d-flex flex-column justify-content-center align-items-center">
       <p class="fs-5 mb-0">
         Join us and be a part of the potential business group
       </p>
