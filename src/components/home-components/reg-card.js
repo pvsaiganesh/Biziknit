@@ -1,6 +1,7 @@
 import React from "react";
 import "./reg-card.scss";
 // import InputComp from "./input-comp";
+import { Link } from "react-router-dom";
 
 const RegCard = () => {
   return (
@@ -23,9 +24,11 @@ const RegCard = () => {
             <InputComp placeholder={"Want to Join Us"} dropdown={true} />
           </div> */}
         <div>
-          <button type="submit" class="btn btn-outline-light">
-            Register Now
-          </button>
+          <Link to={"/register"}>
+            <button type="submit" class="btn btn-outline-light">
+              Register Now
+            </button>
+          </Link>
         </div>
       </div>
     </div>
