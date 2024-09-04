@@ -52,6 +52,7 @@ const Home = () => {
       <Blogs />
       <ReadyCard />
       <Footer />
+    
     </>
   );
 };
