@@ -7,6 +7,7 @@ import WhatIsBiziknit from "./home-components/whatIsbiziknit.js";
 import OurValues from "./home-components/ourvalues.js";
 import Testimonials from "./home-components/testimonials.js";
 import WhyJoin from "./home-components/whyjoin.js";
+import JoinUs from "./home-components/joinus.js";
 import "./home.scss";
 
 const Home = () => {
@@ -43,16 +44,7 @@ const Home = () => {
       <OurValues />
       <Testimonials />
       <WhyJoin />
-      <div class="d-flex flex-row justify-content-between p-5 bg-white ">
-        <div class="text-start text-white">
-          <p class="fs-5">Join Us For Meeting</p>
-          <p class="fs-6">
-            Visiting a Biziknit Chapter is free and gives you the chance to
-            connect with quality business professionals from your local
-            community to explore opportunities
-          </p>
-        </div>
-      </div>
+      <JoinUs />
     </>
   );
 };
