@@ -3,7 +3,7 @@ import "./joinus.scss";
 
 const JoinUs = () => {
   return (
-    <div class="bg-5 d-flex flex-row p-3 ps-4 pe-4 text-white ">
+    <div class="bg-5 d-flex flex-row p-5  text-white ">
       <div>
         <p class="fs-5">Join Us For Meeting</p>
         <p class="fs-6">

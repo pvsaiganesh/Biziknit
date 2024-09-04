@@ -4,14 +4,15 @@ import InputComp from "./input-comp";
 
 const RegCard = () => {
   return (
-    <div class=" bg-4 p-3 text-white d-flex flex-column justify-content-center align-items-center">
-      <p class="fs-5 mb-0">
-        Join us and be a part of the potential business group
-      </p>
-      <p class="fs-6">Helping you in finding potential prospects</p>
-      <form>
-        <div class="d-flex flex-column">
-          <div class="d-flex flex-row justify-between">
+    <div class=" bg-4 p-5 text-white d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-row justify-content-between w-100">
+        <div>
+          <p class="fs-5 mb-0">
+            Join us and be a part of the potential business group
+          </p>
+          <p class="fs-6">Helping you in finding potential prospects</p>
+        </div>
+        {/* <div class="d-flex flex-row justify-between">
             <InputComp placeholder={"Name"} />
             <InputComp placeholder={"Phone number"} />
             <InputComp placeholder={"Business name"} />
@@ -20,14 +21,13 @@ const RegCard = () => {
             <InputComp placeholder={"Business type"} />
             <InputComp placeholder={"Pin code"} />
             <InputComp placeholder={"Want to Join Us"} dropdown={true} />
-          </div>
-          <div class="text-center">
-            <button type="submit" class="btn btn-outline-light">
-              Register Now
-            </button>
-          </div>
+          </div> */}
+        <div>
+          <button type="submit" class="btn btn-outline-light">
+            Register Now
+          </button>
         </div>
-      </form>
+      </div>
     </div>
   );
 };
