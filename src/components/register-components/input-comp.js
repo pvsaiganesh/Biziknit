@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
-
+import "../register.scss";
 import "react-datepicker/dist/react-datepicker.css";
 import "react-datepicker/dist/react-datepicker-cssmodules.css";
 
 const InputComp = ({ label, icon, button, type }) => {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <div class=" p-1 w-100">
+    <div class=" p-1 pb-4 w-100">
       <div class="input-group-sm">
         <label for="basic-url" class="form-label">
           {label}
@@ -21,7 +21,7 @@ const InputComp = ({ label, icon, button, type }) => {
             <option value="3">Three</option>
           </select>
         )}
-        {(type === "text" || type === "textarea" || type === "file") && (
+        {(type === "text" || type === "file") && (
           <input
             type={type}
             class="form-control input-group-sm"
@@ -40,8 +40,8 @@ const InputComp = ({ label, icon, button, type }) => {
               aria-describedby="button-addon2"
             />
             <button
-              class="btn btn-outline-secondary"
-              type="button"
+              class="btn  bg-button text-white"
+              type="button "
               id="button-addon2"
             >
               Pay Now
@@ -50,11 +50,20 @@ const InputComp = ({ label, icon, button, type }) => {
         )}
       </div>
       {type === "datepicker" && (
-        <div class="input-group mb-3">
+        <div class="input-group mb-5">
           <DatePicker
             selected={startDate}
             onChange={(date) => setStartDate(date)}
           />
+        </div>
+      )}
+      {type === "textarea" && (
+        <div class="input-group-sm mb-3">
+          <textarea
+            class="form-control"
+            placeholder=""
+            id="floatingTextarea"
+          ></textarea>
         </div>
       )}
     </div>
