@@ -3,18 +3,40 @@ import "./register.scss";
 import InputComp from "./register-components/input-comp";
 
 const Register = () => {
-  const ele1 = { label: "Full Name" };
-  const ele2 = { label: "Name of Firm" };
-  const ele3 = { label: "Business Category", dropdown: true };
-  const ele4 = { label: "Phone Number" };
-  const ele5 = { label: "Address" };
-  const ele6 = { label: "Landmark" };
-  const ele7 = { label: "Pin code" };
-  const ele8 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
-  const ele9 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
-  const ele10 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
-  const ele11 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
-  const ele12 = { label: "Location Map", icon: <i class="bi bi-geo-alt" /> };
+  const ele1 = { label: "Full Name", type: "text" };
+  const ele2 = { label: "Name of Firm", type: "text" };
+  const ele3 = { label: "Business Category", type: "select" };
+  const ele4 = { label: "Phone Number", type: "text" };
+  const ele5 = { label: "Address", type: "text" };
+  const ele6 = { label: "Landmark", type: "text" };
+  const ele7 = { label: "Pin code", type: "text" };
+  const ele8 = {
+    label: "Location Map",
+    icon: <i class="bi bi-geo-alt" />,
+    type: "text",
+  };
+  const ele10 = {
+    label: "Joining Date",
+    icon: <i class="bi bi-geo-alt" />,
+    type: "datepicker",
+  };
+  const ele11 = {
+    label: "Amount",
+    defaultValue: 1000,
+    type: "number",
+    button: true,
+  };
+  const ele12 = {
+    label: "Profile Pic",
+    icon: <i class="bi bi-geo-alt" />,
+    type: "file",
+  };
+  const ele13 = {
+    label: "Description",
+    icon: <i class="bi bi-geo-alt" />,
+    type: "textarea",
+  };
+
   return (
     <div id="register" class="d-flex flex-row justify-content-start">
       <div class="d-flex flex-row justify-content-center align-items-center bg-3 vw-30">
@@ -36,16 +58,16 @@ const Register = () => {
               <InputComp {...ele2} />
               <InputComp {...ele3} />
               <InputComp {...ele8} />
-              <InputComp {...ele8} />
-              <InputComp {...ele8} />
+              <InputComp {...ele10} />
+              <InputComp {...ele12} />
             </div>
             <div class="d-flex flex-column">
               <InputComp {...ele4} />
               <InputComp {...ele5} />
               <InputComp {...ele6} />
               <InputComp {...ele7} />
-              <InputComp {...ele8} />
-              <InputComp {...ele8} />
+              <InputComp {...ele11} />
+              <InputComp {...ele13} />
             </div>
           </div>
           <div class="mt-3 text-center">
