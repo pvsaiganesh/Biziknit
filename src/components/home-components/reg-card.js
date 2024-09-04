@@ -1,6 +1,6 @@
 import React from "react";
 import "./reg-card.scss";
-import InputComp from "./input-comp";
+// import InputComp from "./input-comp";
 
 const RegCard = () => {
   return (
