@@ -1,14 +1,17 @@
 import React from "react";
 
-const BlogItem = () => {
+const BlogItem = ({ image, title, description }) => {
   return (
-    <div class="border-top-start-radius border-bottom-end-radius d-flex flex-column">
+    <div class="border-top-start-radius border-bottom-end-radius d-flex flex-column p-2 ">
       <div>
-        <img />
+        <img src={image} alt="img" class="img-fluid" />
       </div>
-      <div>
-        <p></p>
-        <p></p>
+      <div class="p-3 border border-bottom-end-3">
+        <p class="fs-5">{title}</p>
+        <p class="fs-6">{description}</p>
+        <div class="text-end">
+          <span class="fs-6 text-underline">View more</span>
+        </div>
       </div>
     </div>
   );

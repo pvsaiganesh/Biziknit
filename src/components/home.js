@@ -8,6 +8,8 @@ import OurValues from "./home-components/ourvalues.js";
 import Testimonials from "./home-components/testimonials.js";
 import WhyJoin from "./home-components/whyjoin.js";
 import JoinUs from "./home-components/joinus.js";
+import Blogs from "./home-components/blogs.js";
+
 import "./home.scss";
 
 const Home = () => {
@@ -45,6 +47,7 @@ const Home = () => {
       <Testimonials />
       <WhyJoin />
       <JoinUs />
+      <Blogs />
     </>
   );
 };
