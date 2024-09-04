@@ -24,7 +24,7 @@ const InputComp = ({ label, icon, button, type }) => {
         {(type === "text" || type === "file") && (
           <input
             type={type}
-            class="form-control input-group-sm"
+            class="form-control"
             id="basic-url"
             aria-describedby="basic-addon3 basic-addon4 button-addon2"
           />
