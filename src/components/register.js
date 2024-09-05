@@ -40,12 +40,10 @@ const Register = () => {
   return (
     <div id="register" class="d-flex flex-row justify-content-start">
       <div class="d-flex flex-row justify-content-center align-items-center bg-3 vw-30">
-        <div class="register-text-width ">
-          <div class="register-text">
-            <text fill="transparent" stroke>
-              Register
-            </text>
-          </div>
+        <div class="register-text">
+          <text fill="transparent" class="fs-1 register-text-width " stroke>
+            Register
+          </text>
         </div>
       </div>
       <div class=" pt-3 pb-3 ps-5 pe-5 d-flex flex-row justify-content-center align-items-center flex-grow-1">
