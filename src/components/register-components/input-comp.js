@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker-cssmodules.css";
 const InputComp = ({ label, icon, button, type }) => {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <div class=" p-1 pb-4 w-100">
+    <div class=" p-1 pb-1 ps-1 pe-1 w-100">
       <div class="input-group-sm">
         <label for="basic-url" class="form-label">
           {label}
