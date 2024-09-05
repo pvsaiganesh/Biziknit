@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <div id="home" class="bg-2 p-5 pb-0">
-        <div class="text-light text-start d-flex flex-row justify-content-space-around align-items-center">
+        <div class="text-light text-center text-md-start d-flex flex-row justify-content-space-around align-items-center pb-3">
           <div>
             <p class="fs-2">
               Connect, Collaborate, and Conquer Market with Biziknit
@@ -32,16 +32,40 @@ const Home = () => {
               Join Now
             </button>
           </div>
-          <div>
+          <div class="d-none d-md-block">
             <img src={worker} alt="worker" />
           </div>
         </div>
-        <div class="rounded-3 rounded-bottom-0 infos-container d-flex flex-row justify-content-around ml-5 mr-5 p-3 ">
-          <SmallInfoCard number={"10+"} title={"Businesses"} />
-          <SmallInfoCard number={"20+"} title={"Years of Experience"} />
-          <SmallInfoCard number={"10+"} title={"Awards Received"} />
-          <SmallInfoCard number={"500+"} title={"Satisfied Clients"} />
+        <div class="d-none d-md-block rounded-3 rounded-bottom-0 infos-container  ml-5 mr-5 p-3 ">
+          <div class="d-flex flex-row justify-content-around align-items-center">
+            <SmallInfoCard number={"10+"} title={"Businesses"} />
+            <SmallInfoCard number={"20+"} title={"Years of Experience"} />
+            <SmallInfoCard number={"10+"} title={"Awards Received"} />
+            <SmallInfoCard number={"500+"} title={"Satisfied Clients"} />
+          </div>
         </div>
+      </div>
+      <div class="d-flex flex-row justify-content-evenly align-items-center flex-wrap d-md-none bg-white">
+        <SmallInfoCard
+          number={"10+"}
+          title={"Businesses"}
+          alignment="flex-row align-items-center"
+        />
+        <SmallInfoCard
+          number={"20+"}
+          title={"Years of Experience"}
+          alignment="flex-row align-items-center"
+        />
+        <SmallInfoCard
+          number={"10+"}
+          title={"Awards Received"}
+          alignment="flex-row align-items-center"
+        />
+        <SmallInfoCard
+          number={"500+"}
+          title={"Satisfied Clients"}
+          alignment="flex-row align-items-center"
+        />
       </div>
       <RegCard />
       <WhatIsBiziknit />
@@ -52,7 +76,6 @@ const Home = () => {
       <Blogs />
       <ReadyCard />
       <Footer />
-    
     </>
   );
 };

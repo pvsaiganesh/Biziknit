@@ -1,10 +1,12 @@
 import React from "react";
 
-const SmallInfoCard = ({ number, title }) => {
+const SmallInfoCard = ({ number, title, alignment }) => {
+  const align = alignment ? alignment : "flex-column";
+  const padingright = alignment ? "pe-2" : "";
   return (
-    <div class="text-center">
-      <p class="fs-4 mb-0">{number}</p>
-      <p class="fs-6">{title}</p>
+    <div class={"d-flex " + align}>
+      <p class={"fs-5 mb-0 " + padingright}>{number}</p>
+      <p class="fs-6 mb-0">{title}</p>
     </div>
   );
 };
