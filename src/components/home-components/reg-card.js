@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const RegCard = () => {
   return (
-    <div class=" bg-4 p-5 text-white d-flex flex-column justify-content-center align-items-center">
+    <div class="bg-4 p-5 text-white d-flex flex-column justify-content-center align-items-center">
       <div class="d-flex flex-column flex-md-row justify-content-between w-100 text-center text-md-start">
         <div>
           <p class="fs-5 mb-0">
