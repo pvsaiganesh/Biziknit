@@ -9,7 +9,7 @@ const Blogs = () => {
   return (
     <>
       <p class="text-center fw-bolder fs-3 org-color pt-3">Blogs</p>
-      <div class="p-5 d-flex flex-row justify-content-around flex-wrap">
+      <div class="p-5 d-flex flex-column flex-md-row justify-content-around flex-wrap flex-sm-nowrap">
         <BlogItem
           image={blog1}
           title={"Business meeting"}
