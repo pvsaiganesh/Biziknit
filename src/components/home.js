@@ -17,13 +17,13 @@ import "./home.scss";
 const Home = () => {
   return (
     <>
-      <div id="home" class="bg-2 p-5 pb-0">
+      <div id="home" class="bg-2 p-5 pb-0 container-fluid">
         <div class="text-light text-center text-md-start d-flex flex-row justify-content-space-around align-items-center pb-3">
           <div>
-            <p class="fs-2">
+            <p class="fs-3">
               Connect, Collaborate, and Conquer Market with Biziknit
             </p>
-            <p class="fs-4">
+            <p class="fs-5">
               Join a thriving community of small business owners and elevate
               your success with exclusive referrals and leads tailored just for
               you!
@@ -45,7 +45,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="d-flex flex-row justify-content-evenly align-items-center flex-wrap d-md-none bg-white">
+      <div class="d-flex flex-row justify-content-evenly align-items-center flex-wrap d-md-none bg-white pt-3 pb-3">
         <SmallInfoCard
           number={"10+"}
           title={"Businesses"}
