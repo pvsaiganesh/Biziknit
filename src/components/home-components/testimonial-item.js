@@ -16,7 +16,7 @@ const TestimonialItem = ({ review, name, testiImg, slideOption }) => {
         <p class="fs-6 pb-2">{name}</p>
       </div>
       <div class="ps-5 pe-5 ">
-        <img src={testiImg} alt="img" class="d-none" />
+        <img src={testiImg} alt="img" class="d-none d-md-block" />
       </div>
     </div>
   );

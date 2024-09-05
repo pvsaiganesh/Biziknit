@@ -9,6 +9,9 @@ const OurValues = () => {
         <img src={img} alt="img" class="img-fluid" />
       </div>
       <div class="d-flex flex-row justify-content-between align-items-center p-5 bg-white">
+        <div class="p-5 d-none d-md-block">
+          <img src={img} alt="img" />
+        </div>
         <div>
           <div class="text-start">
             <p class="fs-4 headings fw-bolder">Our Values</p>

@@ -4,8 +4,11 @@ import "./ourvalues.scss";
 
 const WhyJoin = () => {
   return (
-    <div class="d-flex flex-row justify-content-between align-items-center p-5 bg-white">
-      <div>
+    <div class=" p-5 bg-white">
+      <div class="pb-3 d-md-none">
+        <img src={img} alt="img" class="img-fluid" />
+      </div>
+      <div class="d-flex flex-row justify-content-between align-items-center">
         <div class="text-start">
           <p class="fs-4 headings fw-bolder">Why Join Biziknit?</p>
           <ul>
@@ -35,9 +38,9 @@ const WhyJoin = () => {
             </li>
           </ul>
         </div>
-      </div>
-      <div class="p-5">
-        <img src={img} alt="img" />
+        <div class="p-5 d-none d-md-block">
+          <img src={img} alt="img" />
+        </div>
       </div>
     </div>
   );
