@@ -44,14 +44,14 @@ const Testimonials = () => {
             testiImg={testiImg}
           />
         </div>
-        <div class="carousel-item  pl-5 pr-5" data-bs-interval={2000}>
+        <div class="carousel-item " data-bs-interval={2000}>
           <TestimonialItem
             review={`“Find Your Community: Once you join, you'll be categorized alongside other SMEs in your specific pin code.”`}
             name={"--Bbau"}
             testiImg={testiImg2}
           />
         </div>
-        <div class="carousel-item  pl-5 pr-5" data-bs-interval={2000}>
+        <div class="carousel-item" data-bs-interval={2000}>
           <TestimonialItem
             review={`“Streamlined Lead Generation: Leverage our state-of-the-art technology to receive quality leads without lifting a finger..”`}
             name={"--Njdjpss"}

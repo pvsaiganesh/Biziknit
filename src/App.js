@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Navbar from "./components/home-components/navbar";
 import Home from "./components/home";
 import Register from "./components/register";
