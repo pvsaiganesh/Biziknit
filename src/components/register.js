@@ -39,18 +39,20 @@ const Register = () => {
 
   return (
     <div id="register" class="d-flex flex-row justify-content-start">
-      <div class="d-flex flex-row justify-content-center align-items-center bg-3 vw-30">
-        <div class="register-text">
-          <text fill="transparent" class="fs-1 register-text-width " stroke>
-            Register
-          </text>
+      <div class="d-none d-md-block  bg-3">
+        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+          <div class="register-text text-center">
+            <text fill="transparent" class=" register-text-width" stroke>
+              Register
+            </text>
+          </div>
         </div>
       </div>
       <div class=" pt-3 pb-3 ps-5 pe-5 d-flex flex-row justify-content-center align-items-center flex-grow-1">
         <div class="p-3 pt-2 pb-2 text-start border rounded w-100">
           <p class="fs-5 m-0">Register</p>
           <p class="fs-6">Hey enter your details to create your account</p>
-          <div class="text-start d-flex flex-row justify-content-around">
+          <div class="text-start d-flex flex-column flex-md-row justify-content-around">
             <div class="d-flex flex-column">
               <InputComp {...ele1} />
               <InputComp {...ele2} />

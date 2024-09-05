@@ -2,10 +2,11 @@
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) !important;
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 1);
+  vertical-align: middle;
 }
 .bg-3 {
   background: linear-gradient(101.48deg, #fe3732 30.86%, #fa5209 70.68%);
@@ -20,5 +21,5 @@
 }
 
 .register-text-width {
-  font-size: 7rem !important;
+  font-size: 5rem !important;
 }

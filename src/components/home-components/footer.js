@@ -12,7 +12,7 @@ const Footer = () => {
       </div>
       <Social />
       <hr class="bg-white" />
-      <div class="d-flex flex-row justify-content-between text-white">
+      <div class="d-flex flex-column flex-md-row justify-content-between text-white">
         <div class="reachus d-flex flex-column p-5">
           <p class="fs-6 fw-bold">Reach us</p>
           <p class="">
