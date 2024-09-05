@@ -11,6 +11,7 @@ const Testimonials = () => {
       id="carouselExampleDark"
       class="carousel carousel-dark card-color p-5"
       data-bs-pause={false}
+      data-bs-cycle={true}
       data-bs-ride={"carousel"}
     >
       <div class="carousel-indicators">
