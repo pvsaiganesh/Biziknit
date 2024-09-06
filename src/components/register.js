@@ -67,7 +67,7 @@ const Register = () => {
           <p className="fs-6 ps-4">
             Hey enter your details to create your account
           </p>
-          <div className="text-start d-flex flex-column flex-md-row justify-content-around">
+          <div className="text-start d-flex flex-column flex-md-row justify-content-evenly">
             <div className="d-flex flex-column">
               <InputComp {...ele1} />
               <InputComp {...ele2} />
