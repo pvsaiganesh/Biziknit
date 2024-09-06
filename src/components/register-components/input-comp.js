@@ -19,12 +19,44 @@ const InputComp = ({ label, type, func }) => {
             <option value="3">Three</option>
           </select>
         )}
-        {(type === "text" ||
-          type === "file" ||
-          type === "date" ||
-          type === "password") && (
+        {(type === "text" ? (
           <input
             type={type}
+            value={(e) => {
+              console.log(e.target.value);
+            }}
+            className="form-control"
+            id="basic-url"
+            aria-describedby="basic-addon3 basic-addon4 button-addon2"
+          />
+        ) : type === "file" ? (
+          <input
+            type={type}
+            value={(e) => {
+              console.log(e.target.value);
+            }}
+            className="form-control"
+            id="basic-url"
+            aria-describedby="basic-addon3 basic-addon4 button-addon2"
+          />
+        ) : type === "date" ? (
+          <input
+            type={type}
+            value={(e) => {
+              console.log(e.target.value);
+            }}
+            className="form-control"
+            id="basic-url"
+            aria-describedby="basic-addon3 basic-addon4 button-addon2"
+          />
+        ) : (
+          type === "password"
+        )) && (
+          <input
+            type={type}
+            value={(e) => {
+              console.log(e.target.value);
+            }}
             className="form-control"
             id="basic-url"
             aria-describedby="basic-addon3 basic-addon4 button-addon2"
