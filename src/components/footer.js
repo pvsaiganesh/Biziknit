@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <hr className="bg-white" />
       <div className="d-flex flex-column flex-md-row justify-content-between text-white">
-        <div className="reachus d-flex flex-column p-5">
+        <div className="reachus text-start d-flex flex-column p-5">
           <p className="fs-6 fw-bold">Reach us</p>
           <p className="">
             <svg
