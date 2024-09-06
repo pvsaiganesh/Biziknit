@@ -19,42 +19,32 @@ const InputComp = ({ label, type, func }) => {
             <option value="3">Three</option>
           </select>
         )}
-        {(type === "text" ? (
+        {type === "file" && (
           <input
             type={type}
-            value={(e) => {
+            onChange={(e) => {
               console.log(e.target.value);
             }}
             className="form-control"
             id="basic-url"
             aria-describedby="basic-addon3 basic-addon4 button-addon2"
           />
-        ) : type === "file" ? (
+        )}
+        {type === "date" && (
           <input
             type={type}
-            value={(e) => {
+            onChange={(e) => {
               console.log(e.target.value);
             }}
             className="form-control"
             id="basic-url"
             aria-describedby="basic-addon3 basic-addon4 button-addon2"
           />
-        ) : type === "date" ? (
+        )}
+        {type === "password" && (
           <input
             type={type}
-            value={(e) => {
-              console.log(e.target.value);
-            }}
-            className="form-control"
-            id="basic-url"
-            aria-describedby="basic-addon3 basic-addon4 button-addon2"
-          />
-        ) : (
-          type === "password"
-        )) && (
-          <input
-            type={type}
-            value={(e) => {
+            onChange={(e) => {
               console.log(e.target.value);
             }}
             className="form-control"
@@ -107,6 +97,72 @@ const InputComp = ({ label, type, func }) => {
             Get Location
           </button>
         </div>
+      )}
+      {label === "Full Name" && (
+        <input
+          type={type}
+          onChange={(e) => {
+            console.log(e.target.value);
+          }}
+          className="form-control"
+          id="basic-url"
+          aria-describedby="basic-addon3 basic-addon4 button-addon2"
+        />
+      )}
+      {label === "Name of Firm" && (
+        <input
+          type={type}
+          onChange={(e) => {
+            console.log(e.target.value);
+          }}
+          className="form-control"
+          id="basic-url"
+          aria-describedby="basic-addon3 basic-addon4 button-addon2"
+        />
+      )}
+      {label === "Phone Number" && (
+        <input
+          type={type}
+          onChange={(e) => {
+            console.log(e.target.value);
+          }}
+          className="form-control"
+          id="basic-url"
+          aria-describedby="basic-addon3 basic-addon4 button-addon2"
+        />
+      )}
+      {label === "Address" && (
+        <input
+          type={type}
+          onChange={(e) => {
+            console.log(e.target.value);
+          }}
+          className="form-control"
+          id="basic-url"
+          aria-describedby="basic-addon3 basic-addon4 button-addon2"
+        />
+      )}
+      {label === "Landmark" && (
+        <input
+          type={type}
+          onChange={(e) => {
+            console.log(e.target.value);
+          }}
+          className="form-control"
+          id="basic-url"
+          aria-describedby="basic-addon3 basic-addon4 button-addon2"
+        />
+      )}
+      {label === "Pin code" && (
+        <input
+          type={type}
+          onChange={(e) => {
+            console.log(e.target.value);
+          }}
+          className="form-control"
+          id="basic-url"
+          aria-describedby="basic-addon3 basic-addon4 button-addon2"
+        />
       )}
     </div>
   );

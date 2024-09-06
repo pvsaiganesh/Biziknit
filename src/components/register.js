@@ -89,9 +89,9 @@ const Register = () => {
             <button type="submit" className="bg-button ps-3 pe-3 pt-2 pb-2">
               Register
             </button>
-            <p class="mt-2">
+            <p className="mt-2">
               Already have logins!?{" "}
-              <span class="text-orange-color">Login here</span>
+              <span className="text-orange-color">Login here</span>
             </p>
           </div>
         </div>
