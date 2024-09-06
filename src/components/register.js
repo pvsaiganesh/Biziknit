@@ -85,10 +85,13 @@ const Register = () => {
               <InputComp {...ele13} />
             </div>
           </div>
-          <div className="mt-3 text-center">
+          <div className="mt-3 text-start ps-4">
             <button type="submit" className="bg-button ps-3 pe-3 pt-2 pb-2">
               Register
             </button>
+            <p>
+              Already have logins!? <span class="">Login here</span>
+            </p>
           </div>
         </div>
       </div>
