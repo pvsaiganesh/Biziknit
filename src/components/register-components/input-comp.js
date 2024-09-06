@@ -1,11 +1,9 @@
-import React, { useState } from "react";
-import DatePicker from "react-datepicker";
+import React from "react";
 import "../register.scss";
 import "react-datepicker/dist/react-datepicker.css";
 import "react-datepicker/dist/react-datepicker-cssmodules.css";
 
-const InputComp = ({ label, icon, button, type }) => {
-  const [startDate, setStartDate] = useState(new Date());
+const InputComp = ({ label, icon, button, type, func }) => {
   return (
     <div class=" p-1 pb-1 ps-1 pe-1 w-100">
       <div class="input-group-sm">
@@ -21,7 +19,7 @@ const InputComp = ({ label, icon, button, type }) => {
             <option value="3">Three</option>
           </select>
         )}
-        {(type === "text" || type === "file") && (
+        {(type === "text" || type === "file" || type === "date") && (
           <input
             type={type}
             class="form-control"
@@ -29,7 +27,6 @@ const InputComp = ({ label, icon, button, type }) => {
             aria-describedby="basic-addon3 basic-addon4 button-addon2"
           />
         )}
-        {icon}
         {type === "number" && (
           <div class="input-group mb-3">
             <input
@@ -49,14 +46,6 @@ const InputComp = ({ label, icon, button, type }) => {
           </div>
         )}
       </div>
-      {type === "datepicker" && (
-        <div class="input-group mb-5">
-          <DatePicker
-            selected={startDate}
-            onChange={(date) => setStartDate(date)}
-          />
-        </div>
-      )}
       {type === "textarea" && (
         <div class="input-group-sm mb-3">
           <textarea
@@ -64,6 +53,24 @@ const InputComp = ({ label, icon, button, type }) => {
             placeholder=""
             id="floatingTextarea"
           ></textarea>
+        </div>
+      )}
+      {type === "location" && (
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn  bg-button text-white"
+            onclick={func}
+            type="button "
+            id="button-addon2"
+          >
+            Get Location
+          </button>
         </div>
       )}
     </div>

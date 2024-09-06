@@ -13,12 +13,19 @@ const Register = () => {
   const ele8 = {
     label: "Location Map",
     icon: <i class="bi bi-geo-alt" />,
-    type: "text",
+    type: "location",
+    func: function getLocation() {
+      if ("geolocation" in navigator) {
+        navigator.geolocation.watchPosition();
+      } else {
+        alert("Geolocation is not supported by this browser.");
+      }
+    },
   };
   const ele10 = {
     label: "Joining Date",
     icon: <i class="bi bi-geo-alt" />,
-    type: "datepicker",
+    type: "date",
   };
   const ele11 = {
     label: "Amount",
