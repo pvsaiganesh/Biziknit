@@ -19,7 +19,10 @@ const InputComp = ({ label, type, func }) => {
             <option value="3">Three</option>
           </select>
         )}
-        {(type === "text" || type === "file" || type === "date") && (
+        {(type === "text" ||
+          type === "file" ||
+          type === "date" ||
+          type === "password") && (
           <input
             type={type}
             className="form-control"

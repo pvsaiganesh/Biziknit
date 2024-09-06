@@ -1,0 +1,28 @@
+.register-text {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) !important;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 1);
+  vertical-align: middle;
+}
+.bg-3 {
+  background: linear-gradient(101.48deg, #fe3732 30.86%, #fa5209 70.68%);
+  width: 30%;
+}
+.bg-button {
+  background-color: rgba(254, 55, 50, 1);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.register-text-width {
+  font-size: 5rem !important;
+}
+.text-orange-color {
+  color: rgba(254, 55, 50, 1);
+}
