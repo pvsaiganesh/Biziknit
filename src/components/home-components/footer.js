@@ -94,12 +94,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center text-white">
-        Biziknit © 2024. All Rights Reserved
-      </p>
-      <p className="text-end text-white">
-        A Product From
-        <img src={logo} alt="logo" />
+      <p className="d-flex flex-row justify-content-center align-items-center">
+        <div className="text-end text-white flex-fill">
+          Biziknit © 2024. All Rights Reserved
+        </div>
+        <div className="text-end text-white flex-fill">
+          A Product From
+          <img src={logo} alt="logo" />
+        </div>
       </p>
     </div>
   );
