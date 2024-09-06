@@ -7,10 +7,12 @@ import logo from "../../assets/logo-white.png";
 const Footer = () => {
   return (
     <div className="p-5 bg-5">
-      <div className="text-center">
-        <img src={Logo} alt="img" className="img-fluid" />
+      <div className="d-flex flex-row justify-content-end align-items-center text-center">
+        <div className="flex-grow-1">
+          <img src={Logo} alt="img" className="img-fluid " />
+        </div>
+        <Social />
       </div>
-      <Social />
       <hr className="bg-white" />
       <div className="d-flex flex-column flex-md-row justify-content-between text-white">
         <div className="reachus d-flex flex-column p-5">

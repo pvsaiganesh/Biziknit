@@ -3,7 +3,7 @@ import "../register.scss";
 import "react-datepicker/dist/react-datepicker.css";
 import "react-datepicker/dist/react-datepicker-cssmodules.css";
 
-const InputComp = ({ label, icon, button, type, func }) => {
+const InputComp = ({ label, type, func }) => {
   return (
     <div className=" p-1 pb-1 ps-1 pe-1 w-100">
       <div className="input-group-sm">

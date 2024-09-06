@@ -37,7 +37,7 @@ const facebook = (
 );
 const Social = () => {
   return (
-    <div className="text-end p-5">
+    <div className="text-end p-5 w-20">
       {facebook}
       {linkedin}
       {insta}
