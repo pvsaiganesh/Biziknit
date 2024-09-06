@@ -5,18 +5,18 @@ import "./testimonials.scss";
 const TestimonialItem = ({ review, name, testiImg, slideOption }) => {
   return (
     <div
-      class="d-flex flex-column flex-md-row justify-content-center  text-start w-100"
+      className="d-flex flex-column flex-md-row justify-content-center  text-start w-100"
       data-bs-slide={slideOption}
     >
-      <div class="pe-5 ps-5">
-        <p class="fs-5 title pb-2">Business Testimonial</p>
-        <img src={testiImg} alt="img" class="img-fluid d-md-none" />
+      <div className="pe-5 ps-5">
+        <p className="fs-5 title pb-2">Business Testimonial</p>
+        <img src={testiImg} alt="img" className="img-fluid d-md-none" />
 
-        <p class="fs-6 pb-2">{review}</p>
-        <p class="fs-6 pb-2">{name}</p>
+        <p className="fs-6 pb-2">{review}</p>
+        <p className="fs-6 pb-2">{name}</p>
       </div>
-      <div class="ps-5 pe-5 ">
-        <img src={testiImg} alt="img" class="d-none d-md-block" />
+      <div className="ps-5 pe-5 ">
+        <img src={testiImg} alt="img" className="d-none d-md-block" />
       </div>
     </div>
   );

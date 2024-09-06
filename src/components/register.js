@@ -12,11 +12,13 @@ const Register = () => {
   const ele7 = { label: "Pin code", type: "text" };
   const ele8 = {
     label: "Location Map",
-    icon: <i class="bi bi-geo-alt" />,
+    icon: <i className="bi bi-geo-alt" />,
     type: "location",
     func: function getLocation() {
       if ("geolocation" in navigator) {
-        navigator.geolocation.watchPosition();
+        navigator.geolocation.getCurrentPosition((position) => {
+          console.log(position);
+        });
       } else {
         alert("Geolocation is not supported by this browser.");
       }
@@ -24,7 +26,7 @@ const Register = () => {
   };
   const ele10 = {
     label: "Joining Date",
-    icon: <i class="bi bi-geo-alt" />,
+    icon: <i className="bi bi-geo-alt" />,
     type: "date",
   };
   const ele11 = {
@@ -35,32 +37,38 @@ const Register = () => {
   };
   const ele12 = {
     label: "Profile Pic",
-    icon: <i class="bi bi-geo-alt" />,
+    icon: <i className="bi bi-geo-alt" />,
     type: "file",
   };
   const ele13 = {
     label: "Description",
-    icon: <i class="bi bi-geo-alt" />,
+    icon: <i className="bi bi-geo-alt" />,
     type: "textarea",
   };
 
   return (
-    <div id="register" class="d-flex flex-row justify-content-start">
-      <div class="d-none d-md-block  bg-3">
-        <div class="d-flex flex-column justify-content-center align-items-center h-100">
-          <div class="register-text text-center">
-            <text fill="transparent" class=" register-text-width" stroke>
+    <div id="register" className="d-flex flex-row justify-content-start">
+      <div className="d-none d-md-block  bg-3">
+        <div className="d-flex flex-column justify-content-center align-items-center h-100">
+          <div className="register-text text-center">
+            <span
+              fill="transparent"
+              className=" register-text-width"
+              stroke="true"
+            >
               Register
-            </text>
+            </span>
           </div>
         </div>
       </div>
-      <div class=" p-5 d-flex flex-row justify-content-center align-items-center flex-grow-1">
-        <div class="p-3 pt-2 pb-2 text-start border rounded w-100">
-          <p class="fs-5 m-0">Register</p>
-          <p class="fs-6">Hey enter your details to create your account</p>
-          <div class="text-start d-flex flex-column flex-md-row justify-content-around">
-            <div class="d-flex flex-column">
+      <div className=" p-5 d-flex flex-row justify-content-center align-items-center flex-grow-1">
+        <div className="p-3 pt-2 pb-2 text-start border rounded w-100">
+          <p className="fs-5 m-0 ps-4">Register</p>
+          <p className="fs-6 ps-4">
+            Hey enter your details to create your account
+          </p>
+          <div className="text-start d-flex flex-column flex-md-row justify-content-around">
+            <div className="d-flex flex-column">
               <InputComp {...ele1} />
               <InputComp {...ele2} />
               <InputComp {...ele3} />
@@ -68,7 +76,7 @@ const Register = () => {
               <InputComp {...ele10} />
               <InputComp {...ele12} />
             </div>
-            <div class="d-flex flex-column">
+            <div className="d-flex flex-column">
               <InputComp {...ele4} />
               <InputComp {...ele5} />
               <InputComp {...ele6} />
@@ -77,8 +85,8 @@ const Register = () => {
               <InputComp {...ele13} />
             </div>
           </div>
-          <div class="mt-3 text-center">
-            <button type="submit" class="bg-button ps-3 pe-3 pt-2 pb-2">
+          <div className="mt-3 text-center">
+            <button type="submit" className="bg-button ps-3 pe-3 pt-2 pb-2">
               Register
             </button>
           </div>

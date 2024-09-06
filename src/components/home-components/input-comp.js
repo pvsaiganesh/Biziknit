@@ -4,32 +4,32 @@ const InputComp = ({ placeholder, dropdown }) => {
   return (
     <>
       {dropdown ? (
-        <div class="dropdown p-3">
-          <div class="btn-group ">
-            <button class="btn btn-light btn-sm" type="button">
+        <div className="dropdown p-3">
+          <div className="btn-group ">
+            <button className="btn btn-light btn-sm" type="button">
               Small split button
             </button>
             <button
               type="button"
-              class="btn btn-sm btn-light dropdown-toggle dropdown-toggle-split"
+              className="btn btn-sm btn-light dropdown-toggle dropdown-toggle-split"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <span class="visually-hidden">Toggle Dropdown</span>
+              <span className="visually-hidden">Toggle Dropdown</span>
             </button>
-            <ul class="dropdown-menu">
+            <ul className="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="#Home">
+                <a className="dropdown-item" href="#Home">
                   Action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#Home">
+                <a className="dropdown-item" href="#Home">
                   Another action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#Home">
+                <a className="dropdown-item" href="#Home">
                   Something else here
                 </a>
               </li>
@@ -37,8 +37,12 @@ const InputComp = ({ placeholder, dropdown }) => {
           </div>
         </div>
       ) : (
-        <div class="input-group-sm p-3">
-          <input type="input" class="form-control" placeholder={placeholder} />
+        <div className="input-group-sm p-3">
+          <input
+            type="input"
+            className="form-control"
+            placeholder={placeholder}
+          />
         </div>
       )}
     </>

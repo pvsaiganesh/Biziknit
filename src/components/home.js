@@ -17,27 +17,27 @@ import "./home.scss";
 const Home = () => {
   return (
     <>
-      <div id="home" class="bg-2 p-5 pb-0 container-fluid">
-        <div class="text-light text-center text-md-start d-flex flex-row justify-content-space-around align-items-center ">
+      <div id="home" className="bg-2 p-5 pb-0 container-fluid">
+        <div className="text-light text-center text-md-start d-flex flex-row justify-content-space-around align-items-center ">
           <div>
-            <p class="fs-3">
+            <p className="fs-3">
               Connect, Collaborate, and Conquer Market with Biziknit
             </p>
-            <p class="fs-5">
+            <p className="fs-5">
               Join a thriving community of small business owners and elevate
               your success with exclusive referrals and leads tailored just for
               you!
             </p>
-            <button type="button" class="btn btn-outline-light">
+            <button type="button" className="btn btn-outline-light">
               Join Now
             </button>
           </div>
-          <div class="d-none d-md-block">
+          <div className="d-none d-md-block">
             <img src={worker} alt="worker" />
           </div>
         </div>
-        <div class="d-none d-md-block rounded-3 rounded-bottom-0 infos-container  ml-5 mr-5 p-3 ">
-          <div class="d-flex flex-row justify-content-around align-items-center">
+        <div className="d-none d-md-block rounded-3 rounded-bottom-0 infos-container  ml-5 mr-5 p-3 ">
+          <div className="d-flex flex-row justify-content-around align-items-center">
             <SmallInfoCard number={"10+"} title={"Businesses"} />
             <SmallInfoCard number={"20+"} title={"Years of Experience"} />
             <SmallInfoCard number={"10+"} title={"Awards Received"} />
@@ -45,7 +45,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="d-flex flex-row justify-content-evenly align-items-center flex-wrap d-md-none bg-white pt-3 pb-3">
+      <div className="d-flex flex-row justify-content-evenly align-items-center flex-wrap d-md-none bg-white pt-3 pb-3">
         <SmallInfoCard
           number={"10+"}
           title={"Businesses"}

@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#Home">
-          <img src={Logo} alt="img" class="img-fluid" />
+    <nav className="navbar navbar-expand-lg navbar-dark">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#Home">
+          <img src={Logo} alt="img" className="img-fluid" />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -19,49 +19,49 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="ml-auto collapse navbar-collapse text-white"
+          className="ml-auto collapse navbar-collapse text-white"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase justify-content-right">
-            <li class="nav-item ">
-              <Link to={"/"} class="text-decoration-none">
-                <a
-                  class="nav-link active text-decoration-none"
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase justify-content-right">
+            <li className="nav-item ">
+              <Link to={"/"} className="text-decoration-none">
+                <span
+                  className="nav-link active text-decoration-none"
                   aria-current="page"
                   href="#Home"
                 >
                   Home
-                </a>
+                </span>
               </Link>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link active" href="#Home">
+            <li className="nav-item">
+              <a className="nav-link active" href="#Home">
                 About Us
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#Home">
+            <li className="nav-item">
+              <a className="nav-link active" href="#Home">
                 BLOGS
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#Home">
+            <li className="nav-item">
+              <a className="nav-link active" href="#Home">
                 CONTACT
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#Home">
+            <li className="nav-item">
+              <a className="nav-link active" href="#Home">
                 LOGIN
               </a>
             </li>
             <li>
               <Link to={"/register"}>
                 <button
-                  class="btn btn-outline-light text-uppercase"
+                  className="btn btn-outline-light text-uppercase"
                   type="submit"
                 >
                   Register

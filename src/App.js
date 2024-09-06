@@ -19,7 +19,7 @@ function App() {
         ></Route>
         <Route
           element={
-            <div class="App">
+            <div className="App">
               <Navbar />
               <Register />
             </div>
