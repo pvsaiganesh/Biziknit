@@ -10,7 +10,7 @@ import WhyJoin from "./home-components/whyjoin.js";
 import JoinUs from "./home-components/joinus.js";
 import Blogs from "./home-components/blogs.js";
 import ReadyCard from "./home-components/areyouready.js";
-import Footer from "./home-components/footer.js";
+import Footer from "./footer.js";
 
 import "./home.scss";
 

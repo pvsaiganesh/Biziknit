@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "../../assets/bizikintlogo.svg";
-import "./joinus.scss";
-import Social from "./soical.js";
-import logo from "../../assets/logo-white.png";
+import Logo from "../assets/bizikintlogo.svg";
+import "./home-components/joinus.js";
+import Social from "./home-components/soical.js";
+import logo from "../assets/logo-white.png";
 
 const Footer = () => {
   return (
