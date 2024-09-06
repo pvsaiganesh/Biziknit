@@ -75,7 +75,7 @@ const Footer = () => {
           <p className="fs-6">Terms of Use</p>
         </div>
 
-        <div className="subscribe p-1">
+        <div className="subscribe p-5">
           <p className="fs-4 fw-bold">Subscribe to our newsletter</p>
           <p className="fs-6">Be the first to receive any new updated</p>
           <div className="input-group mb-3">
