@@ -62,8 +62,8 @@ const Register = () => {
         </div>
       </div>
       <div className=" p-5 d-flex flex-row justify-content-center align-items-center flex-grow-1">
-        <div className="p-3 pt-2 pb-2 text-start border rounded w-100">
-          <p className="fs-5 m-0 ps-4">Register</p>
+        <div className="p-3 pt-2 pb-2 text-center text-md-start border rounded w-100">
+          <p className="fs-3 m-0 ps-4">Register</p>
           <p className="fs-6 ps-4">
             Hey enter your details to create your account
           </p>
