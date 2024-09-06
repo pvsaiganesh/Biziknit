@@ -7,8 +7,8 @@ import logo from "../../assets/logo-white.png";
 const Footer = () => {
   return (
     <div className="p-5 bg-5">
-      <div className="d-flex flex-row justify-content-end align-items-center text-center">
-        <div className="flex-grow-1">
+      <div className="d-flex flex-row justify-content-end align-items-center">
+        <div className="flex-fill text-center">
           <img src={Logo} alt="img" className="img-fluid " />
         </div>
         <Social />
