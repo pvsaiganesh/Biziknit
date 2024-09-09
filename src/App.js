@@ -1,5 +1,4 @@
 import "./App.scss";
-import Navbar from "./components/home-components/navbar";
 import Home from "./components/home";
 import Register from "./components/register";
 import Login from "./components/login";
@@ -15,35 +14,15 @@ function App() {
       <BrowserRouter>
         <Scrolltotop />
         <Routes>
-          <Route
-            element={
-              <>
-                <Navbar />
-                <Home />
-              </>
-            }
-            path="/"
-          ></Route>
+          <Route element={<Home />} path="/"></Route>
           <Route element={<Register />} path="/register"></Route>
           <Route element={<Login />} path="/login"></Route>
-          <Route
-            element={
-              <>
-                <Navbar />
-                <AboutUs />
-              </>
-            }
-            path="/aboutus"
-          ></Route>
-          <Route
-            element={
-              <>
-                <Navbar />
-                <BlogsPage />
-              </>
-            }
-            path="/blogs"
-          ></Route>
+          <Route element={<AboutUs />} path="/aboutus"></Route>
+          <Route element={<BlogsPage />} path="/blogs">
+            {/* <Route element={<BlogPage1 />}></Route>
+            <Route element={<BlogPage2 />}></Route>
+            <Route element={<BlogPage3 />}></Route> */}
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>

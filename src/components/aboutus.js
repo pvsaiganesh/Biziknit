@@ -6,10 +6,12 @@ import { Splash } from "../assets/splash";
 import Testimonials from "./home-components/testimonials";
 import Footer from "./footer";
 import "./aboutus.scss";
+import Navbar from "./home-components/navbar";
 
 const AboutUs = () => {
   return (
     <div>
+      <Navbar />
       <div className="bg-9 d-flex flex-column justify-content-center align-items-center">
         <div style={{ position: "relative" }} className="svg-props">
           <Splash />

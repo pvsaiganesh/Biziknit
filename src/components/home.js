@@ -13,10 +13,12 @@ import ReadyCard from "./home-components/areyouready.js";
 import Footer from "./footer.js";
 
 import "./home.scss";
+import Navbar from "./home-components/navbar.js";
 
 const Home = () => {
   return (
     <>
+      <Navbar />
       <div id="home" className="bg-2 p-5 pb-0 container-fluid">
         <div className="text-light text-center text-md-start d-flex flex-row justify-content-space-around align-items-center pb-5 pb-md-0">
           <div>
