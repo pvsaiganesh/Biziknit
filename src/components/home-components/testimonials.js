@@ -36,7 +36,7 @@ const Testimonials = () => {
           aria-label="Slide 3"
         ></button>
       </div>
-      <div className="carousel-inner p-5">
+      <div className="carousel-inner p-2 p-md-5">
         <div className="carousel-item  active " data-bs-interval={2000}>
           <TestimonialItem
             review={`“We Loved Using Achievers to show case our business. It helped us
