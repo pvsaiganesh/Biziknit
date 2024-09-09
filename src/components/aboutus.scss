@@ -1,12 +1,12 @@
 .bg-9 {
   background-image: url(../assets/bg-9.jpg);
   background-size: 100% 100%;
-  min-height: 40vh;
+  height: 50vh;
   background-repeat: no-repeat;
   width: 100vw;
 }
 .heading-text {
   color: rgba(254, 55, 50, 1);
   font-size: 2.5rem !important;
-  background-image: url(../assets/bg-10.jpg);
+  z-index: 100;
 }

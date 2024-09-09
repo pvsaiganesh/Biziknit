@@ -1,16 +1,22 @@
-import "./aboutus.scss";
 import React from "react";
 import img from "../assets/vision.jpg";
 import img2 from "../assets/img-5.jpg";
 import img3 from "../assets/img-6.jpg";
+import { Splash } from "../assets/splash";
 import Testimonials from "./home-components/testimonials";
 import Footer from "./footer";
+import "./aboutus.scss";
 
 const AboutUs = () => {
   return (
     <div>
       <div className="bg-9 d-flex flex-column justify-content-center align-items-center">
-        <span className="heading-text">About Us</span>
+        <div style={{ position: "relative" }}>
+          <Splash />
+        </div>
+        <div style={{ position: "absolute" }} className="heading-text">
+          About Us
+        </div>
       </div>
       <div className="container p-5">
         <div className="row">
