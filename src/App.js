@@ -6,6 +6,7 @@ import Login from "./components/login";
 import AboutUs from "./components/aboutus";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BlogsPage from "./components/blogs";
 
 function App() {
   return (
@@ -31,6 +32,15 @@ function App() {
               </>
             }
             path="/aboutus"
+          ></Route>
+          <Route
+            element={
+              <>
+                <Navbar />
+                <BlogsPage />
+              </>
+            }
+            path="/blogs"
           ></Route>
         </Routes>
       </BrowserRouter>

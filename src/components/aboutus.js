@@ -14,7 +14,7 @@ const AboutUs = () => {
       </div>
       <div className="container p-5">
         <div className="row">
-          <div className="col-12 d-md-none">
+          <div className="col-12 d-md-none pb-3">
             <img src={img} alt="img" className="img-fluid" />
           </div>
           <div className="col-12 col-md-6 text-start">
@@ -42,7 +42,7 @@ const AboutUs = () => {
       </div>
       <div className="container p-5">
         <div className="row">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 pb-3">
             <img src={img2} alt="img" className="img-fluid" />
           </div>
           <div className="col-12 col-md-6 text-start">
@@ -87,7 +87,7 @@ const AboutUs = () => {
       </div>
       <div className="container p-5">
         <div className="row">
-          <div className="col-12 d-md-none">
+          <div className="col-12 d-md-none pb-3">
             <img src={img3} alt="img" className="img-fluid" />
           </div>
           <div className="col-12 col-md-6 text-start">
