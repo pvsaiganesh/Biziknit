@@ -2,6 +2,7 @@ import React from "react";
 import Blogs from "./home-components/blogs";
 import { Splash } from "../assets/splash";
 import "./blogs.scss";
+import Footer from "./footer";
 
 const BlogsPage = () => {
   return (
@@ -17,6 +18,7 @@ const BlogsPage = () => {
       <div>
         <Blogs />
       </div>
+      <Footer />
     </div>
   );
 };
