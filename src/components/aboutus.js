@@ -2,6 +2,9 @@ import "./aboutus.scss";
 import React from "react";
 import img from "../assets/vision.jpg";
 import img2 from "../assets/img-5.jpg";
+import img3 from "../assets/img-6.jpg";
+import Testimonials from "./home-components/testimonials";
+import Footer from "./footer";
 
 const AboutUs = () => {
   return (
@@ -37,6 +40,92 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <div className="container p-5">
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <img src={img2} alt="img" className="img-fluid" />
+          </div>
+          <div className="col-12 col-md-6 text-start">
+            <p className="fs-4 text-orange-color">How Biziknit Works</p>
+            <p className="fs-6">
+              <ul>
+                <li>
+                  <span className="text-orange-color">
+                    Find Your Community:
+                  </span>{" "}
+                  Once you join, you'll be categorized alongside other SMEs in
+                  your specific pin code. This ensures that you are part of an
+                  exclusive network where you can trust and rely on each other
+                  for referrals.
+                </li>
+                <li>
+                  <span className="text-orange-color">Receive Referrals:</span>{" "}
+                  Our members' loyal recommendations mean you get new clients
+                  right from the start. Connect with businesses that resonate
+                  with your services and create valuable partnerships.
+                </li>
+                <li>
+                  <span className="text-orange-color">
+                    Automated Lead Generation:
+                  </span>{" "}
+                  Take the work out of prospecting! With our innovative auto
+                  lead generation methods, watch your potential clients come to
+                  you without the hassle.
+                </li>
+                <li>
+                  <span className="text-orange-color">
+                    Collaborate and Grow:
+                  </span>{" "}
+                  Take part in community events, workshops, and resources
+                  designed to enhance your skills and expand your business
+                  footprint.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container p-5">
+        <div className="row">
+          <div className="col-12 d-md-none">
+            <img src={img3} alt="img" className="img-fluid" />
+          </div>
+          <div className="col-12 col-md-6 text-start">
+            <p className="fs-4 text-orange-color">Why Join Biziknit?</p>
+            <p className="fs-6">
+              <ul>
+                <li>
+                  <span className="text-orange-color">Exclusive Coverage:</span>
+                  Be the go-to business in your area with unique visibility to
+                  local clients.
+                </li>
+                <li>
+                  <span className="text-orange-color">Network With Peers:</span>
+                  Build connections with like-minded business owners who can
+                  offer support, encouragement, and referral opportunities.
+                </li>
+                <li>
+                  <span className="text-orange-color">
+                    Streamlined Lead Generation:
+                  </span>
+                  Leverage our state-of-the-art technology to receive quality
+                  leads without lifting a finger.
+                </li>
+                <li>
+                  <span className="text-orange-color">Resource Sharing:</span>
+                  Gain access to valuable resources including marketing tips,
+                  business tools, and educational content from experts.
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div className="col-6 d-none d-md-block">
+            <img src={img3} alt="img" className="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <Testimonials />
+      <Footer />
     </div>
   );
 };
