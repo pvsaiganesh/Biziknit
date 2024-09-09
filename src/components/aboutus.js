@@ -125,6 +125,24 @@ const AboutUs = () => {
         </div>
       </div>
       <Testimonials />
+
+      <div className="bg-5 d-flex flex-column flex-md-row justify-content-md-between p-5  text-white text-center text-md-start mb-5">
+        <div>
+          <p className="fs-5">
+            Secure Your Spot! Be the Exclusive Business in Your Pincode.
+          </p>
+          <p className="fs-6">
+            Only one business per category per pincode is allowed—join us now to
+            claim your category and become the sole provider in your area before
+            it's taken!
+          </p>
+        </div>
+        <div>
+          <button className="btn btn-light text-black">
+            Search your pincode
+          </button>
+        </div>
+      </div>
       <Footer />
     </div>
   );
