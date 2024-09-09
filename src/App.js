@@ -7,11 +7,13 @@ import AboutUs from "./components/aboutus";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BlogsPage from "./components/blogs";
+import Scrolltotop from "./components/scrolltotop";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Scrolltotop />
         <Routes>
           <Route
             element={

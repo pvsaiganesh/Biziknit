@@ -3,6 +3,7 @@ import Logo from "../assets/bizikintlogo.svg";
 import "./home-components/joinus.js";
 import Social from "./home-components/soical.js";
 import logo from "../assets/logo-white.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -64,10 +65,18 @@ const Footer = () => {
 
         <div className="pages d-flex flex-column p-5">
           <p className="fs-6 fw-bold">Pages</p>
-          <p className="fs-6">Home</p>
-          <p className="fs-6">About Us</p>
-          <p className="fs-6">Blogs</p>
-          <p className="fs-6">Contact Us</p>
+          <Link to="/" className="text-decoration-none text-white">
+            <p className="fs-6">Home</p>
+          </Link>
+          <Link to="/aboutus" className="text-decoration-none text-white">
+            <p className="fs-6">About Us</p>
+          </Link>
+          <Link to="/blogs" className="text-decoration-none text-white">
+            <p className="fs-6">Blogs</p>
+          </Link>
+          <Link to="/contactus" className="text-decoration-none text-white">
+            <p className="fs-6">Contact Us</p>
+          </Link>
         </div>
 
         <div className="legal d-flex flex-column p-5">
