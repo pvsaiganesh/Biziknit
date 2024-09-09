@@ -1,6 +1,8 @@
 import "./aboutus.scss";
 import React from "react";
 import img from "../assets/vision.jpg";
+import img2 from "../assets/img-5.jpg";
+
 const AboutUs = () => {
   return (
     <div>
@@ -9,7 +11,10 @@ const AboutUs = () => {
       </div>
       <div className="container p-5">
         <div className="row">
-          <div className="col-6 text-start">
+          <div className="col-12 d-md-none">
+            <img src={img} alt="img" className="img-fluid" />
+          </div>
+          <div className="col-12 col-md-6 text-start">
             <p className="fs-4 text-orange-color">About Us</p>
             <p className="fs-6">
               At Biziknit, we understand the challenges faced by small business
@@ -27,8 +32,8 @@ const AboutUs = () => {
               ecosystem that fosters innovation and mutual success.
             </p>
           </div>
-          <div className="col-6">
-            <img src={img} alt="img" />
+          <div className="col-6 d-none d-md-block">
+            <img src={img} alt="img" className="img-fluid" />
           </div>
         </div>
       </div>
