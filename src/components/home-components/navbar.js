@@ -27,7 +27,7 @@ const Navbar = () => {
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase justify-content-right">
             <li className="nav-item ">
-              <Link to={"/"} className="text-decoration-none">
+              <Link to={"/"} className="text-decoration-none text-start">
                 <span
                   className="nav-link active text-decoration-none"
                   aria-current="page"
@@ -39,31 +39,38 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <Link to={"/aboutus"} className="text-decoration-none">
+              <Link to={"/aboutus"} className="text-decoration-none text-start">
                 <a className="nav-link active" href="#Home">
                   About Us
                 </a>
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#Home">
-                BLOGS
-              </a>
+              <Link to={"/blogs"} className="text-decoration-none text-start">
+                <a className="nav-link active" href="#Home">
+                  BLOGS
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#Home">
-                CONTACT
-              </a>
+              <Link to={"/contact"} className="text-decoration-none text-start">
+                <a className="nav-link active" href="#Home">
+                  CONTACT
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to={"/login"} className="text-decoration-none">
+              <Link to={"/login"} className="text-decoration-none text-start">
                 <a className="nav-link active" href="#Home">
                   LOGIN
                 </a>
               </Link>
             </li>
-            <li>
-              <Link to={"/register"}>
+            <li className="nav-item">
+              <Link
+                to={"/register"}
+                className="text-decoration-none text-start"
+              >
                 <button
                   className="btn btn-outline-light text-uppercase"
                   type="submit"
