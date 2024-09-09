@@ -26,3 +26,13 @@
 .text-orange-color {
   color: rgba(254, 55, 50, 1);
 }
+.horizontal-register-text {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) !important;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 1);
+  vertical-align: middle;
+}

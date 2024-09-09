@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <div id="home" className="bg-2 p-5 pb-0 container-fluid">
-        <div className="text-light text-center text-md-start d-flex flex-row justify-content-space-around align-items-center ">
+        <div className="text-light text-center text-md-start d-flex flex-row justify-content-space-around align-items-center pb-5 pb-md-0">
           <div>
             <p className="fs-3">
               Connect, Collaborate, and Conquer Market with Biziknit

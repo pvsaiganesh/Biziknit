@@ -1,5 +1,5 @@
 import React from "react";
-import "./register.scss";
+import "./login.scss";
 import InputComp from "./register-components/input-comp";
 
 const Login = () => {
@@ -7,7 +7,23 @@ const Login = () => {
   const ele2 = { label: "Password", type: "password" };
 
   return (
-    <div id="login" className="d-flex flex-row justify-content-start vh-100">
+    <div
+      id="login"
+      className="d-flex flex-column flex-md-row justify-content-start vh-100"
+    >
+      <div className="d-block d-md-none  bg-3 vw-100">
+        <div className="d-flex flex-column justify-content-center align-items-center">
+          <div className="text-center horizontal-register-text">
+            <span
+              fill="transparent"
+              className=" register-text-width"
+              stroke="true"
+            >
+              Login
+            </span>
+          </div>
+        </div>
+      </div>
       <div className="d-none d-md-block  bg-3">
         <div className="d-flex flex-column justify-content-center align-items-center h-100">
           <div className="register-text text-center">
@@ -21,8 +37,8 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className=" p-5 d-flex flex-row justify-content-center align-items-center flex-grow-1">
-        <div className="p-5 m-5  text-center text-md-start border rounded w-30  shadow">
+      <div className="p-2 p-md-5 d-flex flex-row justify-content-center align-items-center flex-grow-1">
+        <div className="p-2 m-2 p-md-5 m-md-5  text-center text-md-start border rounded w-30  shadow">
           <p className="fs-3 m-0 ">Login</p>
           <p className="fs-6 ">Enter your details</p>
           <div className="text-start d-flex flex-column flex-md-row justify-content-start">

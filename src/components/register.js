@@ -47,7 +47,23 @@ const Register = () => {
   };
 
   return (
-    <div id="register" className="d-flex flex-row justify-content-start">
+    <div
+      id="register"
+      className="d-flex flex-column flex-md-row justify-content-start"
+    >
+      <div className="d-block d-md-none  bg-3 vw-100">
+        <div className="d-flex flex-column justify-content-center align-items-center">
+          <div className="text-center horizontal-register-text">
+            <span
+              fill="transparent"
+              className=" register-text-width"
+              stroke="true"
+            >
+              Register
+            </span>
+          </div>
+        </div>
+      </div>
       <div className="d-none d-md-block  bg-3">
         <div className="d-flex flex-column justify-content-center align-items-center h-100">
           <div className="register-text text-center">
@@ -62,9 +78,9 @@ const Register = () => {
         </div>
       </div>
       <div className=" p-5 d-flex flex-row justify-content-center align-items-center flex-grow-1">
-        <div className="p-3 pt-2 pb-2 text-center text-md-start border rounded w-100  shadow">
-          <p className="fs-3 m-0 ps-4">Register</p>
-          <p className="fs-6 ps-4">
+        <div className="p-3 pt-2 pb-2 text-start border rounded w-100  shadow">
+          <p className="fs-3 m-0 ps-2 ps-md-4">Register</p>
+          <p className="fs-6  ps-2 ps-md-4">
             Hey enter your details to create your account
           </p>
           <div className="text-start d-flex flex-column flex-md-row justify-content-evenly">
@@ -85,7 +101,7 @@ const Register = () => {
               <InputComp {...ele13} />
             </div>
           </div>
-          <div className="mt-3 text-start ps-4">
+          <div className="mt-3 text-start  ps-2 ps-md-4">
             <button type="submit" className="bg-button ps-3 pe-3 pt-2 pb-2">
               Register
             </button>
