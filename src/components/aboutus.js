@@ -20,6 +20,12 @@ const AboutUs = () => {
               possibilities where you’ll access valuable referrals, automated
               lead generation, and collaborative growth opportunities.
             </p>
+            <p className="fs-6">
+              <span className="fs-5 text-orange-color">Our vision</span> is to
+              empower small and medium enterprises (SMEs) to become leaders in
+              their local markets. Together, we can create a supportive
+              ecosystem that fosters innovation and mutual success.
+            </p>
           </div>
           <div className="col-6">
             <img src={img} alt="img" />
