@@ -133,7 +133,7 @@ const AboutUs = () => {
       <Testimonials />
 
       <div className="bg-5 d-flex flex-column flex-md-row justify-content-md-between p-5  text-white text-center text-md-start mb-5">
-        <div>
+        <div className="pe-2">
           <p className="fs-5">
             Secure Your Spot! Be the Exclusive Business in Your Pincode.
           </p>
