@@ -11,7 +11,7 @@ const AboutUs = () => {
   return (
     <div>
       <div className="bg-9 d-flex flex-column justify-content-center align-items-center">
-        <div style={{ position: "relative" }}>
+        <div style={{ position: "relative" }} className="svg-props">
           <Splash />
         </div>
         <div style={{ position: "absolute" }} className="heading-text">
