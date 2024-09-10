@@ -17,48 +17,50 @@ import Navbar from "./home-components/navbar.js";
 
 const Home = () => {
   return (
-    <div id="home">
+    <>
       <Navbar />
-      <div className="bg-2 p-5 pt-0 pb-0 ps-5 pe-5  gap-0 container-fluid d-flex flex-column  justify-content-center align-items-end ">
-        <div className="row align-items-end">
-          <div className="text-light text-center text-md-start d-flex flex-row justify-content-center align-items-baseline ">
-            <div className="align-self-center">
-              <p className="fs-1 fw-bold">
-                Connect, Collaborate, and Conquer Market with Biziknit
-              </p>
-              <p className="fs-5">
-                Join a thriving community of small business owners and elevate
-                your success with exclusive referrals and leads tailored just
-                for you!
-              </p>
-              <button type="button" className="btn d-block btn-outline-light">
-                Join Now
-              </button>
+      <div id="home">
+        <div className="bg-2 p-5 pt-5 mt-3 pb-0 ps-5 pe-5  gap-0 container-fluid d-flex flex-column  justify-content-center align-items-end ">
+          <div className="row align-items-end">
+            <div className="text-light text-center text-md-start d-flex flex-row justify-content-center align-items-baseline ">
+              <div className="align-self-center">
+                <p className="fs-1 fw-bold">
+                  Connect, Collaborate, and Conquer Market with Biziknit
+                </p>
+                <p className="fs-5">
+                  Join a thriving community of small business owners and elevate
+                  your success with exclusive referrals and leads tailored just
+                  for you!
+                </p>
+                <button type="button" className="btn d-block btn-outline-light">
+                  Join Now
+                </button>
+              </div>
+              <div className=" d-none d-md-block  d-flex flex-column justify-content-start align-items-baseline ">
+                <img src={worker} alt="worker" className="img-fluid worker" />
+              </div>
             </div>
-            <div className=" d-none d-md-block  d-flex flex-column justify-content-start align-items-baseline ">
-              <img src={worker} alt="worker" className="img-fluid worker" />
-            </div>
-          </div>
-          <div className="align-self-center d-none d-md-block  rounded-3 rounded-bottom-0 infos-container  p-4 ps-5 pe-5 mb-0 w-100">
-            <div className="d-flex flex-row justify-content-around align-items-center">
-              <SmallInfoCard number={"10+"} title={"Businesses"} />
-              <SmallInfoCard number={"20+"} title={"Years of Experience"} />
-              <SmallInfoCard number={"10+"} title={"Awards Received"} />
-              <SmallInfoCard number={"500+"} title={"Satisfied Clients"} />
+            <div className="align-self-center d-none d-md-block  rounded-3 rounded-bottom-0 infos-container  p-4 ps-5 pe-5 mb-0 w-100">
+              <div className="d-flex flex-row justify-content-around align-items-center">
+                <SmallInfoCard number={"10+"} title={"Businesses"} />
+                <SmallInfoCard number={"20+"} title={"Years of Experience"} />
+                <SmallInfoCard number={"10+"} title={"Awards Received"} />
+                <SmallInfoCard number={"500+"} title={"Satisfied Clients"} />
+              </div>
             </div>
           </div>
         </div>
+        <RegCard />
+        <WhatIsBiziknit />
+        <OurValues />
+        <Testimonials />
+        <WhyJoin />
+        <JoinUs />
+        <Blogs />
+        <ReadyCard />
+        <Footer />
       </div>
-      <RegCard />
-      <WhatIsBiziknit />
-      <OurValues />
-      <Testimonials />
-      <WhyJoin />
-      <JoinUs />
-      <Blogs />
-      <ReadyCard />
-      <Footer />
-    </div>
+    </>
   );
 };
 
