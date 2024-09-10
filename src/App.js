@@ -11,6 +11,7 @@ import BlogLinks from "./components/blog-links";
 function App() {
   return (
     <div className="App">
+      <div className="header-space"></div>
       <BrowserRouter>
         <Scrolltotop />
         <Routes>

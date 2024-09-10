@@ -20,10 +20,10 @@ const Home = () => {
     <>
       <Navbar />
       <div id="home">
-        <div className="bg-2 p-5 pt-5 mt-3 pb-0 ps-5 pe-5  gap-0 container-fluid d-flex flex-column  justify-content-center align-items-end ">
+        <div className="bg-2 p-5 pt-1 pb-0 ps-5 pe-5  gap-0 container-fluid d-flex flex-column  justify-content-center align-items-end ">
           <div className="row align-items-end">
             <div className="text-light text-center text-md-start d-flex flex-row justify-content-center align-items-baseline ">
-              <div className="align-self-center">
+              <div className="align-self-center text-center text-md-start">
                 <p className="fs-1 fw-bold">
                   Connect, Collaborate, and Conquer Market with Biziknit
                 </p>
@@ -32,9 +32,11 @@ const Home = () => {
                   your success with exclusive referrals and leads tailored just
                   for you!
                 </p>
-                <button type="button" className="btn d-block btn-outline-light">
-                  Join Now
-                </button>
+                <p>
+                  <button type="button" className="btn btn-outline-light">
+                    Join Now
+                  </button>
+                </p>
               </div>
               <div className=" d-none d-md-block  d-flex flex-column justify-content-start align-items-baseline ">
                 <img src={worker} alt="worker" className="img-fluid worker" />
