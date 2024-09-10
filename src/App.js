@@ -19,7 +19,7 @@ function App() {
           <Route element={<Login />} path="login"></Route>
           <Route element={<AboutUs />} path="aboutus"></Route>
           <Route element={<BlogsPage />} path="blogs"></Route>
-          <Route element={<BlogLinks />} path="blogs/:blog-id"></Route>
+          <Route element={<BlogLinks />} path="blogs/:blogId"></Route>
         </Routes>
       </BrowserRouter>
     </div>
