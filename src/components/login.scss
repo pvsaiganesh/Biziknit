@@ -4,9 +4,12 @@
   transform: rotate(-90deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) !important;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 1);
   vertical-align: middle;
+  font-weight: 600;
+  font-family: "Open Sans";
+  line-height: 245px;
 }
 .horizotnal-register-text {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) !important;
@@ -27,7 +30,7 @@
 }
 
 .register-text-width {
-  font-size: 4rem !important;
+  font-size: 10rem !important;
 }
 .text-orange-color {
   color: rgba(254, 55, 50, 1);
@@ -38,7 +41,12 @@
   transform: rotate(0deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) !important;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 1);
   vertical-align: middle;
+}
+@media screen and (max-width: 680px) {
+  .register-text-width {
+    font-size: 4rem !important;
+  }
 }
