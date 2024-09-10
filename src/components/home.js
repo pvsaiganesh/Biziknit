@@ -19,8 +19,8 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div id="home">
-        <div className="bg-2 p-5 pt-1 pb-0 ps-5 pe-5  gap-0 container-fluid d-flex flex-column  justify-content-center align-items-end ">
+      <div id="home" className="hero">
+        <div className="bg-2 p-5 pt-0 pb-0 ps-5 pe-5  gap-0 container-fluid d-flex flex-column  justify-content-center align-items-end ">
           <div className="row align-items-end">
             <div className="text-light text-center text-md-start d-flex flex-row justify-content-center align-items-baseline ">
               <div className="align-self-center text-center text-md-start">

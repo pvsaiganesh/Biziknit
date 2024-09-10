@@ -2,10 +2,13 @@
   font-family: "Open Sans", sans-serif !important;
   font-size: 16px !important;
 }
+
+body {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+}
 .App {
   text-align: center;
-  min-height: 100vh;
-  max-width: 100vw;
 }
 .header-space {
   height: 62px;
@@ -47,4 +50,12 @@
 }
 .text-orange-color {
   color: rgba(254, 55, 50, 1);
+}
+.above-the-fold-spacer {
+  // height: 100vh;
+  /* Span from the first to the last grid column line */
+  /* (Negative numbers count from the end of the grid) */
+  grid-column: 1 / -1;
+  /* Start at the first grid row line, and take up 2 rows */
+  grid-row: 1 / span 2;
 }

@@ -10,51 +10,20 @@ import BlogLinks from "./components/blog-links";
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <div className="above-the-fold-spacer"></div>
       <BrowserRouter>
         <Scrolltotop />
         <Routes>
-          <Route
-            element={
-              <>
-                <div className="header-space"></div>
-                <Home />
-              </>
-            }
-            path="/"
-          ></Route>
+          <Route element={<Home />} path="/"></Route>
           <Route element={<Register />} path="register"></Route>
           <Route element={<Login />} path="login"></Route>
-          <Route
-            element={
-              <>
-                <div className="header-space"></div>
-                <AboutUs />
-              </>
-            }
-            path="aboutus"
-          ></Route>
-          <Route
-            element={
-              <>
-                <div className="header-space"></div>
-                <BlogsPage />
-              </>
-            }
-            path="blogs"
-          ></Route>
-          <Route
-            element={
-              <>
-                <div className="header-space"></div>
-                <BlogLinks />
-              </>
-            }
-            path="blogs/:blogId"
-          ></Route>
+          <Route element={<AboutUs />} path="aboutus"></Route>
+          <Route element={<BlogsPage />} path="blogs"></Route>
+          <Route element={<BlogLinks />} path="blogs/:blogId"></Route>
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

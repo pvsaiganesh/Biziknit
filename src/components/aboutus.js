@@ -12,7 +12,7 @@ const AboutUs = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-9 d-flex flex-column justify-content-center align-items-center">
+      <div className="hero bg-9 d-flex flex-column justify-content-center align-items-center">
         <div style={{ position: "relative" }} className="svg-props">
           <Splash />
         </div>
