@@ -9,9 +9,9 @@ const Login = () => {
   return (
     <div
       id="login"
-      className="d-flex flex-column flex-md-row justify-content-start vh-100"
+      className="d-flex flex-column flex-md-row justify-content-between vh-100  vw-100"
     >
-      <div className="d-block d-md-none  vw-100 bg-3">
+      <div className="d-block d-md-none bg-3 vw-100">
         <div className="d-flex flex-column justify-content-center align-items-center">
           <div className="text-center horizontal-register-text">
             <span
@@ -37,22 +37,24 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className="p-1 p-md-5  d-flex flex-row justify-content-center justify-content-md-start align-items-center flex-grow-1">
-        <div className="p-2  p-md-5  text-center text-md-start border rounded w-30  shadow">
-          <p className="fs-3 m-0 ">Login</p>
-          <p className="fs-6 ">Enter your details</p>
-          <div className="text-start d-flex flex-column flex-md-row justify-content-start">
-            <div className="d-flex flex-column">
-              <InputComp {...ele1} />
-              <InputComp {...ele2} />
+      <div className="p-5   flex-fill">
+        <div className="d-inline-flex flex-row justify-content-center justify-content-md-start align-items-center">
+          <div className="p-5  border-rounded  shadow flex-fill text-center text-md-start ms-5 me-5">
+            <p className="fs-3 m-0 ">Login</p>
+            <p className="fs-6 ">Enter your details</p>
+            <div className="text-start d-flex flex-column flex-md-row justify-content-start flex-fill">
+              <div className="d-flex flex-column flex-fill">
+                <InputComp {...ele1} />
+                <InputComp {...ele2} />
+              </div>
             </div>
+            <button
+              type="submit"
+              className="bg-button ps-3 pe-3 pt-2 pb-2 w-100 mt-3"
+            >
+              Login
+            </button>
           </div>
-          <button
-            type="submit"
-            className="bg-button ps-3 pe-3 pt-2 pb-2 w-100 mt-3"
-          >
-            Login
-          </button>
         </div>
       </div>
     </div>
