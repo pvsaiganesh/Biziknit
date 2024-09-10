@@ -36,7 +36,7 @@ const Testimonials = () => {
       </div>
       <div className="carousel-inner p-2 p-md-5">
         {testimonials.map((item) => {
-          return <TestimonialItem {...item} />;
+          return <TestimonialItem {...item} key={item.id} />;
         })}
       </div>
       <button
