@@ -1,9 +1,7 @@
 import React from "react";
 import "./testimonials.scss";
 import TestimonialItem from "./testimonial-item";
-import testiImg from "../../assets/testimonial-image-1.svg";
-import testiImg2 from "../../assets/testimonial-image-2.svg";
-import testiImg3 from "../../assets/testimonial-image-3.svg";
+import { testimonials } from "../constants";
 
 const Testimonials = () => {
   return (
@@ -37,28 +35,9 @@ const Testimonials = () => {
         ></button>
       </div>
       <div className="carousel-inner p-2 p-md-5">
-        <div className="carousel-item  active " data-bs-interval={2000}>
-          <TestimonialItem
-            review={`“We Loved Using Achievers to show case our business. It helped us
-          connect with new clients and grow our customer base.”`}
-            name={"--NAidu Noida"}
-            testiImg={testiImg}
-          />
-        </div>
-        <div className="carousel-item " data-bs-interval={2000}>
-          <TestimonialItem
-            review={`“Find Your Community: Once you join, you'll be categorized alongside other SMEs in your specific pin code.”`}
-            name={"--Bbau"}
-            testiImg={testiImg2}
-          />
-        </div>
-        <div className="carousel-item" data-bs-interval={2000}>
-          <TestimonialItem
-            review={`“Streamlined Lead Generation: Leverage our state-of-the-art technology to receive quality leads without lifting a finger..”`}
-            name={"--Njdjpss"}
-            testiImg={testiImg3}
-          />
-        </div>
+        {testimonials.map((item) => {
+          return <TestimonialItem {...item} />;
+        })}
       </div>
       <button
         className="carousel-control-prev"

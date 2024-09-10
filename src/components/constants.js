@@ -4,6 +4,9 @@ import blog3 from "../assets/blogs-3.png";
 import image1 from "../assets/blog-image-2.svg";
 import image2 from "../assets/blog-image-3.svg";
 import image3 from "../assets/blog-image-4.svg";
+import testiImg from "../assets/testimonial-image-1.svg";
+import testiImg2 from "../assets/testimonial-image-2.svg";
+import testiImg3 from "../assets/testimonial-image-3.svg";
 
 export const blogItems = [
   {
@@ -576,5 +579,29 @@ export const blogItems = [
         give you insights that help your business succeed.  
       </p>
     ),
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    review: `"Biziknit gave my business the boost it needed! Exclusive leads and referrals have made all the difference."`,
+    name: "--Sarat M., Florist",
+    testiImg: testiImg,
+  },
+
+  {
+    id: 2,
+
+    review: `"Biziknit helped me build both professional connections and lasting friendships. It's an incredible community."`,
+    name: "--John P., Cafe Owner",
+    testiImg: testiImg2,
+  },
+  {
+    id: 3,
+
+    review: `"Biziknit’s resources have helped me grow my business and improve personally. It’s been a fantastic journey!"`,
+    name: "--Lina S., Graphic Designer",
+    testiImg: testiImg3,
   },
 ];
