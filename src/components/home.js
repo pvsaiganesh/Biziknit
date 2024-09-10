@@ -21,7 +21,7 @@ const Home = () => {
       <Navbar />
       <div
         id="home"
-        className="bg-2 p-5 pb-0 ps-5 pe-5  container-fluid d-flex flex-column justify-content-between align-items-center "
+        className="bg-2 p-5 pt-5 pb-0 ps-5 pe-5  gap-0 container-fluid d-flex flex-column  align-items-end "
       >
         <div className="text-light text-center text-md-start d-flex flex-row justify-content-center align-items-baseline ">
           <div className="align-self-center">
