@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#Home">
+        <a className="navbar-brand ps-5 " href="#Home">
           <img src={Logo} alt="img" className="img-fluid" />
         </a>
         <button
@@ -22,7 +22,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="ml-auto collapse navbar-collapse text-white"
+          className="ml-auto collapse navbar-collapse text-white pe-5"
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase justify-content-right">
