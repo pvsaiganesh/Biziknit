@@ -8,12 +8,10 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="p-5 bg-5">
-      <div className="d-flex flex-row justify-content-end align-items-center">
-        <div className="flex-fill text-center">
-          <img src={Logo} alt="img" className="img-fluid " />
-        </div>
-        <Social />
+      <div className="flex-fill text-center">
+        <img src={Logo} alt="img" className="img-fluid " />
       </div>
+      <Social />
       <hr className="bg-white" />
       <div className="container">
         <div className="row text-white">
@@ -109,15 +107,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="d-flex flex-row  align-items-center">
-        <div className="text-center text-white flex-grow-1">
-          Biziknit © 2024. All Rights Reserved
-        </div>
-        <div className="text-end text-white ">
-          A Product From
-          <img src={logo} alt="logo" />
-        </div>
-      </p>
+      <div className="text-center text-white flex-grow-1">
+        Biziknit © 2024. All Rights Reserved
+      </div>
+      <div className="text-end text-white ">
+        A Product From
+        <img src={logo} alt="logo" />
+      </div>
     </div>
   );
 };

@@ -11,7 +11,7 @@ const WhatIsBiziknit = () => {
       <div className="d-flex flex-row justify-content-between align-items-center p-5 bg-white">
         <div className="pe-5">
           <div className="text-start ">
-            <p className="fs-5 headings fw-bolder">What is Biziknit?</p>
+            <p className="fs-4 headings fw-bolder">What is Biziknit?</p>
             <p className="fs-6">
               Biziknit is a group of ambitious business owners who meet every
               week over breakfast and help each other to optimize and develop
