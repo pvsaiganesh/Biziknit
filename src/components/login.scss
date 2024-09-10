@@ -45,8 +45,15 @@
   -webkit-text-stroke-color: rgba(255, 255, 255, 1);
   vertical-align: middle;
 }
-@media screen and (max-width: 680px) {
+
+.login-container {
+  width: 55%;
+}
+@media screen and (max-width: 780px) {
   .register-text-width {
     font-size: 4rem !important;
+  }
+  .login-container {
+    width: 100%;
   }
 }

@@ -9,7 +9,7 @@ const Login = () => {
   return (
     <div
       id="login"
-      className="d-flex flex-column flex-md-row justify-content-between vh-100  vw-100"
+      className="d-flex flex-column flex-md-row justify-content-start vh-100  vw-100"
     >
       <div className="d-block d-md-none bg-3 vw-100">
         <div className="d-flex flex-column justify-content-center align-items-center">
@@ -37,8 +37,8 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className="p-5   flex-fill">
-        <div className="d-inline-flex flex-row justify-content-center justify-content-md-start align-items-center">
+      <div className="p-5  login-container">
+        <div className="d-flex flex-row justify-content-center justify-content-md-start align-items-center">
           <div className="p-5  border-rounded  shadow flex-fill text-center text-md-start ms-5 me-5">
             <p className="fs-3 m-0 ">Login</p>
             <p className="fs-6 ">Enter your details</p>
