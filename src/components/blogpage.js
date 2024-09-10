@@ -6,7 +6,7 @@ const BlogPage = ({ blogId }) => {
   const { pageTitle, pageDescription, pageImage } = blogItem;
   return (
     <div className="p-5">
-      <div className="pb-3">{pageImage}</div>
+      <div className="pb-3 text-center">{pageImage}</div>
       <div className="text-start">
         {pageTitle}
         {pageDescription}
