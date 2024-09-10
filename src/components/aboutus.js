@@ -1,7 +1,7 @@
 import React from "react";
-import img from "../assets/vision.jpg";
-import img2 from "../assets/img-5.jpg";
-import img3 from "../assets/img-6.jpg";
+import img from "../assets/vision.svg";
+import img2 from "../assets/about-us-2.svg";
+import img3 from "../assets/abouts-us-3.svg";
 import { Splash } from "../assets/splash";
 import Testimonials from "./home-components/testimonials";
 import Footer from "./footer";
@@ -26,7 +26,7 @@ const AboutUs = () => {
             <img src={img} alt="img" className="img-fluid" />
           </div>
           <div className="col-12 col-md-6 text-start">
-            <p className="fs-4 text-orange-color">About Us</p>
+            <p className="fs-4 text-orange-color  fw-bold">About Us</p>
             <p className="fs-6">
               At Biziknit, we understand the challenges faced by small business
               owners in today's competitive landscape. That's why we've created
@@ -54,7 +54,7 @@ const AboutUs = () => {
             <img src={img2} alt="img" className="img-fluid" />
           </div>
           <div className="col-12 col-md-6 text-start">
-            <p className="fs-4 text-orange-color">How Biziknit Works</p>
+            <p className="fs-4 text-orange-color fw-bold">How Biziknit Works</p>
             <p className="fs-6">
               <ul>
                 <li>
@@ -99,7 +99,9 @@ const AboutUs = () => {
             <img src={img3} alt="img" className="img-fluid" />
           </div>
           <div className="col-12 col-md-6 text-start">
-            <p className="fs-4 text-orange-color">Why Join Biziknit?</p>
+            <p className="fs-4 text-orange-color  fw-bold">
+              Why Join Biziknit?
+            </p>
             <p className="fs-6">
               <ul>
                 <li>

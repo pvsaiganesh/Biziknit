@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <div
       id="carouselExampleDark"
-      className="carousel carousel-dark card-color p-2 p-md-5"
+      className="carousel carousel-dark card-color p-2 p-md-5 mb-5"
       data-bs-pause={false}
       data-bs-cycle={true}
       data-bs-ride={"carousel"}
