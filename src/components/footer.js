@@ -15,91 +15,97 @@ const Footer = () => {
         <Social />
       </div>
       <hr className="bg-white" />
-      <div className="d-flex flex-column flex-md-row justify-content-between text-white">
-        <div className="reachus text-start d-flex flex-column p-5">
-          <p className="fs-6 fw-bold">Reach us</p>
-          <p className="">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="white"
-              className="bi bi-telephone-fill me-4"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fillule="evenodd"
-                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+      <div className="container">
+        <div className="row text-white">
+          <div className="reachus text-start d-flex flex-column p-5 col-12 col-md-4 col-lg-3  text-wrap">
+            <p className="fs-6 fw-bold">Reach us</p>
+            <p className="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="white"
+                className="bi bi-telephone-fill me-4"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                />
+              </svg>
+              +91 7095355556
+            </p>
+            <p className="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-envelope-fill me-4"
+                viewBox="0 0 16 16"
+              >
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+              </svg>
+              biziknitcommunity@gmail.com
+            </p>
+            <p className="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-geo-alt-fill me-4"
+                viewBox="0 0 16 16"
+              >
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+              </svg>
+              #39-14-8/5 Madhavadara-Murali nagar, Beside ICICI Bank
+              Visakhapatnam -530007
+            </p>
+          </div>
+
+          <div className="pages d-flex flex-column p-5 col-12 col-md-2">
+            <p className="fs-6 fw-bold">Pages</p>
+            <Link to="/" className="text-decoration-none text-white">
+              <p className="fs-6">Home</p>
+            </Link>
+            <Link to="/aboutus" className="text-decoration-none text-white">
+              <p className="fs-6">About Us</p>
+            </Link>
+            <Link to="/blogs" className="text-decoration-none text-white">
+              <p className="fs-6">Blogs</p>
+            </Link>
+            <Link to="/contactus" className="text-decoration-none text-white">
+              <p className="fs-6">Contact Us</p>
+            </Link>
+          </div>
+
+          <div className="legal d-flex flex-column p-5 col-12 col-md-2">
+            <p className="fs-6 fw-bold">Legal</p>
+            <p className="fs-6">Privacy Policy</p>
+            <p className="fs-6">Terms and Services</p>
+            <p className="fs-6">Terms of Use</p>
+          </div>
+
+          <div className="subscribe p-5 col-12 col-md-4 col-lg-5">
+            <p className="fs-4 fw-bold">Subscribe to our newsletter</p>
+            <p className="fs-6">Be the first to receive any new updated</p>
+            <div className="input-group mb-3">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Enter your email"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
               />
-            </svg>
-            +91 7095355556
-          </p>
-          <p className="">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              className="bi bi-envelope-fill me-4"
-              viewBox="0 0 16 16"
-            >
-              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
-            </svg>
-            biziknitcommunity@gmail.com
-          </p>
-          <p className="">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              className="bi bi-geo-alt-fill me-4"
-              viewBox="0 0 16 16"
-            >
-              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-            </svg>
-            #39-14-8/5 Madhavadara-Murali nagar, Beside ICICI Bank Visakhapatnam
-            -530007
-          </p>
-        </div>
-
-        <div className="pages d-flex flex-column p-5">
-          <p className="fs-6 fw-bold">Pages</p>
-          <Link to="/" className="text-decoration-none text-white">
-            <p className="fs-6">Home</p>
-          </Link>
-          <Link to="/aboutus" className="text-decoration-none text-white">
-            <p className="fs-6">About Us</p>
-          </Link>
-          <Link to="/blogs" className="text-decoration-none text-white">
-            <p className="fs-6">Blogs</p>
-          </Link>
-          <Link to="/contactus" className="text-decoration-none text-white">
-            <p className="fs-6">Contact Us</p>
-          </Link>
-        </div>
-
-        <div className="legal d-flex flex-column p-5">
-          <p className="fs-6 fw-bold">Legal</p>
-          <p className="fs-6">Privacy Policy</p>
-          <p className="fs-6">Terms and Services</p>
-          <p className="fs-6">Terms of Use</p>
-        </div>
-
-        <div className="subscribe p-5">
-          <p className="fs-4 fw-bold">Subscribe to our newsletter</p>
-          <p className="fs-6">Be the first to receive any new updated</p>
-          <div className="input-group mb-3">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Enter your email"
-              aria-label="Recipient's username"
-              aria-describedby="button-addon2"
-            />
-            <button className="btn bg-button" type="button" id="button-addon2">
-              Subscribe
-            </button>
+              <button
+                className="btn bg-button"
+                type="button"
+                id="button-addon2"
+              >
+                Subscribe
+              </button>
+            </div>
           </div>
         </div>
       </div>
