@@ -12,9 +12,9 @@ export const blogItems = [
   {
     blogId: "1",
     image: blog1,
-    title: "Business meeting",
+    title: "Business Networking Strategies",
     description:
-      "Apex offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding ",
+      "Sarah was a driven professional who wanted to succeed. But, she felt stuck because she didn't have the right connections. That changed at a networking event where she learned about building real professional relationships...",
     pageImage: <img src={image1} className="img-fluid" alt={"blog-image"} />,
     pageTitle: (
       <p className="fs-4 fw-bold">
@@ -242,9 +242,9 @@ export const blogItems = [
   {
     blogId: "2",
     image: blog2,
-    title: "Business meeting",
+    title: "Networking for Businesses",
     description:
-      "Apex offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding ",
+      "Have you ever wondered why some businesses do well while others don't? It's often because of networking. In today's world, networking is key, especially in India's fast-growing market. It helps businesses grow by making new friends...",
     pageImage: <img src={image2} className="img-fluid" alt={"blog-image"} />,
     pageTitle: (
       <p className="fs-4 fw-bold">
@@ -442,9 +442,9 @@ export const blogItems = [
   {
     blogId: "3",
     image: blog3,
-    title: "Business meeting",
+    title: "Strategies for Growth",
     description:
-      "Apex offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding ",
+      "Did you know 85% of all jobs come from networking? This shows how important a strong business network is for success. It helps you get insider info and grow your client base, no matter your job or career level...",
     pageImage: <img src={image3} className="img-fluid" alt={"blog-image"} />,
     pageTitle: (
       <p className="fs-4 text-orange-color fw-bold">
