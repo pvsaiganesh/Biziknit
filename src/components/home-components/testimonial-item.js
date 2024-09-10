@@ -6,7 +6,7 @@ const TestimonialItem = ({ id, review, name, testiImg, slideOption }) => {
   const testimonialClassName =
     id === 1 ? "carousel-item active" : "carousel-item";
   return (
-    <div className={testimonialClassName} data-bs-interval={2000}>
+    <div className={testimonialClassName} data-bs-interval={5000}>
       <div
         className="d-flex flex-column flex-md-row justify-content-center  text-start w-100"
         data-bs-slide={slideOption}
