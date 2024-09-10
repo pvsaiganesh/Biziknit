@@ -52,6 +52,32 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="align-self-center d-md-none  bg-white   p-4 ps-5 pe-5 mb-0 w-100">
+          <div className="d-flex flex-row justify-content-around align-items-center">
+            <SmallInfoCard
+              number={"10+"}
+              title={"Businesses"}
+              alignment={"flex-row"}
+            />
+            <SmallInfoCard
+              number={"20+"}
+              title={"Years of Experience"}
+              alignment={"flex-row"}
+            />
+          </div>
+          <div className="d-flex flex-row justify-content-around align-items-center">
+            <SmallInfoCard
+              number={"10+"}
+              title={"Awards Received"}
+              alignment={"flex-row"}
+            />
+            <SmallInfoCard
+              number={"500+"}
+              title={"Satisfied Clients"}
+              alignment={"flex-row"}
+            />
+          </div>
+        </div>
         <RegCard />
         <WhatIsBiziknit />
         <OurValues />
