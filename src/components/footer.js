@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="p-5 bg-5">
+    <div className="p-3 bg-5">
       <div className="flex-fill text-center">
         <img src={Logo} alt="img" className="img-fluid " />
       </div>
@@ -15,7 +15,7 @@ const Footer = () => {
       <hr className="bg-white" />
       <div className="container">
         <div className="row text-white">
-          <div className="reachus text-start d-flex flex-column p-5 col-12 col-md-6 col-lg-4  text-wrap">
+          <div className="reachus text-start d-flex flex-column pe-5 col-12 col-md-4 col-lg-4">
             <p className="fs-6 fw-bold">Reach us</p>
             <p className="">
               <svg
@@ -62,7 +62,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="pages d-flex flex-column p-5 col-12 col-md-1 col-lg-2">
+          <div className="pages d-flex flex-column pe-5 col-12 col-md-2 col-lg-2">
             <p className="fs-6 fw-bold">Pages</p>
             <Link to="/" className="text-decoration-none text-white">
               <p className="fs-6">Home</p>
@@ -78,14 +78,14 @@ const Footer = () => {
             </Link>
           </div>
 
-          <div className="legal d-flex flex-column p-5 col-12 col-md-1 col-lg-2">
+          <div className="legal d-flex flex-column pe-5 col-12 col-md-2 col-lg-2">
             <p className="fs-6 fw-bold">Legal</p>
             <p className="fs-6">Privacy Policy</p>
             <p className="fs-6">Terms and Services</p>
             <p className="fs-6">Terms of Use</p>
           </div>
 
-          <div className="subscribe p-5 col-12 col-md-4 col-lg-4">
+          <div className="subscribe pe-5 col-12 col-md-4 col-lg-4">
             <p className="fs-4 fw-bold">Subscribe to our newsletter</p>
             <p className="fs-6">Be the first to receive any new updated</p>
             <div className="input-group mb-3">

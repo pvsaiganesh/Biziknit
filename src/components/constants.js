@@ -22,7 +22,7 @@ export const blogItems = [
       </p>
     ),
     pageDescription: (
-      <p className="fs-6">
+      <div className="fs-6">
         Sarah was a driven professional who wanted to succeed. But, she felt
         stuck because she didn't have the right connections. That changed at a
         networking event where she learned about building real professional
@@ -236,7 +236,7 @@ export const blogItems = [
         over time. Show your value, help others, and be real in your
         interactions. This will help you build a professional network that opens
         doors and brings new opportunities your way.  
-      </p>
+      </div>
     ),
   },
   {
@@ -252,7 +252,7 @@ export const blogItems = [
       </p>
     ),
     pageDescription: (
-      <p className="ps-6">
+      <div className="ps-6">
         Have you ever wondered why some businesses do well while others don't?
         It's often because of networking. In today's world, networking is key,
         especially in India's fast-growing market. It helps businesses grow by
@@ -436,7 +436,7 @@ export const blogItems = [
         To make a networking event a hit, pick a good place, theme, and speaker.
         Set clear goals and add fun things to do. After the event, keep in touch
         to keep the connections going.  
-      </p>
+      </div>
     ),
   },
   {
@@ -452,7 +452,7 @@ export const blogItems = [
       </p>
     ),
     pageDescription: (
-      <p className="fs-6">
+      <div className="fs-6">
         Did you know 85% of all jobs come from networking? This shows how
         important a strong business network is for success. It helps you get
         insider info and grow your client base, no matter your job or career
@@ -577,7 +577,7 @@ export const blogItems = [
         professional relationships. So, keep growing your network. This way, it
         will become a key asset for your business. It will open new doors and
         give you insights that help your business succeed.  
-      </p>
+      </div>
     ),
   },
 ];
