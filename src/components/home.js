@@ -24,8 +24,8 @@ const Home = () => {
         className="bg-2 p-5 pb-0 ps-5 pe-5  container-fluid d-flex flex-column justify-content-between align-items-center "
       >
         <div className="text-light text-center text-md-start d-flex flex-row justify-content-center align-items-baseline ">
-          <div className="">
-            <p className="fs-2 fw-bold">
+          <div className="align-self-center">
+            <p className="fs-1 fw-bold">
               Connect, Collaborate, and Conquer Market with Biziknit
             </p>
             <p className="fs-5">
@@ -37,7 +37,7 @@ const Home = () => {
               Join Now
             </button>
           </div>
-          <div className=" d-none d-md-block  d-flex flex-column justify-content-center align-items-baseline ">
+          <div className=" d-none d-md-block  d-flex flex-column justify-content-start align-items-baseline ">
             <img src={worker} alt="worker" className="img-fluid worker" />
           </div>
         </div>
