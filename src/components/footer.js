@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="flex-fill text-center">
         <img src={Logo} alt="img" className="img-fluid " />
       </div>
-      <Social />
+      <Social styles={"text-end p-5 w-20"} />
       <hr className="bg-white" />
       <div className="container">
         <div className="row text-white">
