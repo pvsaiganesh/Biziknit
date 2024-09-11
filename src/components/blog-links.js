@@ -6,10 +6,12 @@ import BlogPage from "./blogpage";
 const BlogLinks = () => {
   const params = useParams();
   return (
-    <div>
+    <>
       <Navbar />
-      <BlogPage blogId={params.blogId} />
-    </div>
+      <div className="hero">
+        <BlogPage blogId={params.blogId} />
+      </div>
+    </>
   );
 };
 
