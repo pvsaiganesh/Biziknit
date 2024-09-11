@@ -5,3 +5,10 @@
   background-repeat: no-repeat;
   width: 100vw;
 }
+@media screen and (max-width: 780px) {
+  .bg-8 {
+    height: 30vh;
+    background-size: contain;
+    width: 100vw;
+  }
+}

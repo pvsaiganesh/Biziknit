@@ -16,3 +16,10 @@
     height: 100%;
   }
 }
+@media screen and (max-width: 780px) {
+  .bg-9 {
+    height: 30vh;
+    background-size: contain;
+    width: 100vw;
+  }
+}

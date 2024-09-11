@@ -10,7 +10,7 @@ import BlogLinks from "./components/blog-links";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <div className="above-the-fold-spacer"></div>
       <BrowserRouter>
         <Scrolltotop />
@@ -23,7 +23,7 @@ function App() {
           <Route element={<BlogLinks />} path="blogs/:blogId"></Route>
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
