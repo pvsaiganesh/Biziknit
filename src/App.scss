@@ -30,3 +30,7 @@
   border-radius: 10px;
   font-size: 1rem;
 }
+.form-control:focus {
+  border-color: rgba(254, 55, 50, 1);
+  box-shadow: none;
+}
