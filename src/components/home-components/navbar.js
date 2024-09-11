@@ -58,7 +58,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to={"/contact"}
+                  to={"/contactus"}
                   className="text-decoration-none text-start"
                 >
                   <span className="nav-link active" href="#Home">

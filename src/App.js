@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BlogsPage from "./components/blogs";
 import Scrolltotop from "./components/scrolltotop";
 import BlogLinks from "./components/blog-links";
+import ContactUs from "./components/contactus";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route element={<AboutUs />} path="aboutus"></Route>
           <Route element={<BlogsPage />} path="blogs"></Route>
           <Route element={<BlogLinks />} path="blogs/:blogId"></Route>
+          <Route element={<ContactUs />} path="contactus"></Route>
         </Routes>
       </BrowserRouter>
     </div>
