@@ -15,9 +15,9 @@ const Footer = () => {
       <hr className="bg-white" />
       <div className="container">
         <div className="row text-white">
-          <div className="reachus text-start d-flex flex-column col-12 col-md-4 col-lg-4">
+          <div className="p-3 reachus text-start d-flex flex-column col-12 col-md-4 col-lg-4">
             <p className="fs-6 fw-bold">Reach us</p>
-            <p className="">
+            <p className="pb-3">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const Footer = () => {
               </span>
               +91 7095355556
             </p>
-            <p className="text-break">
+            <p className="pb-3 text-break">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ const Footer = () => {
               </span>
               biziknitcommunity@gmail.com
             </p>
-            <p className="">
+            <p className="pb-3">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -68,32 +68,38 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="pages d-flex flex-column  col-12 col-md-2 col-lg-2">
-            <p className="fs-6 fw-bold">Pages</p>
-            <Link to="/" className="text-decoration-none text-white">
+          <div className="p-3 pages d-flex flex-column  col-12 col-md-2 col-lg-2">
+            <p className="fs-6 fw-bold ">Pages</p>
+            <Link to="/" className="text-decoration-none text-white pb-3">
               <p className="fs-6">Home</p>
             </Link>
-            <Link to="/aboutus" className="text-decoration-none text-white">
+            <Link
+              to="/aboutus"
+              className="text-decoration-none text-white pb-3"
+            >
               <p className="fs-6">About Us</p>
             </Link>
-            <Link to="/blogs" className="text-decoration-none text-white">
+            <Link to="/blogs" className="text-decoration-none text-white  pb-3">
               <p className="fs-6">Blogs</p>
             </Link>
-            <Link to="/contactus" className="text-decoration-none text-white">
+            <Link
+              to="/contactus"
+              className="text-decoration-none text-white pb-3"
+            >
               <p className="fs-6">Contact Us</p>
             </Link>
           </div>
 
-          <div className="legal d-flex flex-column col-12 col-md-2 col-lg-2">
+          <div className="p-3 legal d-flex flex-column col-12 col-md-2 col-lg-2">
             <p className="fs-6 fw-bold">Legal</p>
-            <p className="fs-6">Privacy Policy</p>
-            <p className="fs-6">Terms and Services</p>
-            <p className="fs-6">Terms of Use</p>
+            <p className="fs-6 pb-3">Privacy Policy</p>
+            <p className="fs-6 pb-3">Terms and Services</p>
+            <p className="fs-6 pb-3">Terms of Use</p>
           </div>
 
-          <div className="subscribe col-12 col-md-4 col-lg-4">
-            <p className="fs-4 fw-bold">Subscribe to our newsletter</p>
-            <p className="fs-6">Be the first to receive any new updated</p>
+          <div className="p-5 subscribe col-12 col-md-4 col-lg-4">
+            <p className="fs-4 fw-bold ">Subscribe to our newsletter</p>
+            <p className="fs-6 pb-3">Be the first to receive any new updated</p>
             <div className="input-group mb-3">
               <input
                 type="text"
