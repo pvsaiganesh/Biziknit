@@ -19,3 +19,7 @@
   /* Start at the first grid row line, and take up 2 rows */
   grid-row: 1 / span 2;
 }
+.hero {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}

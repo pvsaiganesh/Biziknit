@@ -7,7 +7,7 @@ import Navbar from "./home-components/navbar";
 
 const BlogsPage = () => {
   return (
-    <div>
+    <div className="hero">
       <Navbar />
       <div className="hero bg-8 d-flex flex-column justify-content-center align-items-center">
         <div style={{ position: "relative" }} className="svg-props">

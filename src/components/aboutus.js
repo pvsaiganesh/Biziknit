@@ -10,7 +10,7 @@ import Navbar from "./home-components/navbar";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="hero">
       <Navbar />
       <div className="hero bg-9 d-flex flex-column justify-content-center align-items-center">
         <div style={{ position: "relative" }} className="svg-props">

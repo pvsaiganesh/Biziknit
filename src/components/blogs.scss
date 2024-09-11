@@ -1,14 +1,11 @@
 .bg-8 {
   background-image: url(../assets/blogs.svg);
   height: 50vh;
-  background-size: cover;
+  background-size: cover 100%;
   background-repeat: no-repeat;
   width: 100vw;
-}
-@media screen and (max-width: 780px) {
-  .bg-8 {
-    height: 30vh;
-    background-size: contain;
-    width: 100vw;
+  svg {
+    height: 100%;
+    width: 100%;
   }
 }
