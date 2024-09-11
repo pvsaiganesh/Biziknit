@@ -84,7 +84,7 @@ const Register = () => {
             Hey enter your details to create your account
           </p>
           <div className="text-start d-flex flex-column flex-lg-row justify-content-between">
-            <div className="d-flex flex-column flex-fill p-5 ps-0 pe-0">
+            <div className="d-flex flex-column flex-fill p-5 ps-0 pe-lg-5">
               <InputComp {...ele1} />
               <InputComp {...ele2} />
               <InputComp {...ele3} />
