@@ -49,7 +49,7 @@ const Register = () => {
   return (
     <div
       id="register"
-      className="d-flex flex-column flex-md-row justify-content-start"
+      className="d-flex flex-column flex-md-row justify-content-start hero"
     >
       <div className="d-block d-md-none  bg-3 vw-100">
         <div className="d-flex flex-column justify-content-center align-items-center">

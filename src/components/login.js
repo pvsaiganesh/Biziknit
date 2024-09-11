@@ -9,7 +9,7 @@ const Login = () => {
   return (
     <div
       id="login"
-      className="d-flex flex-column flex-md-row justify-content-start vh-100  vw-100"
+      className="d-flex flex-column flex-md-row justify-content-start hero"
     >
       <div className="d-block d-md-none bg-3 vw-100">
         <div className="d-flex flex-column justify-content-center align-items-center">
