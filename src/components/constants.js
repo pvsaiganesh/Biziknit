@@ -15,7 +15,9 @@ export const blogItems = [
     title: "Business Networking Strategies",
     description:
       "Sarah was a driven professional who wanted to succeed. But, she felt stuck because she didn't have the right connections. That changed at a networking event where she learned about building real professional relationships...",
-    pageImage: <img src={image1} className="img-fluid" alt={"blog-image"} />,
+    pageImage: (
+      <img src={image1} className="img-fluid vw-100" alt={"blog-image"} />
+    ),
     pageTitle: (
       <p className="fs-4 fw-bold">
         Mastering Effective Business Networking Strategies
@@ -245,7 +247,9 @@ export const blogItems = [
     title: "Networking for Businesses",
     description:
       "Have you ever wondered why some businesses do well while others don't? It's often because of networking. In today's world, networking is key, especially in India's fast-growing market. It helps businesses grow by making new friends...",
-    pageImage: <img src={image2} className="img-fluid" alt={"blog-image"} />,
+    pageImage: (
+      <img src={image2} className="img-fluid vw-100" alt={"blog-image"} />
+    ),
     pageTitle: (
       <p className="fs-4 fw-bold">
         Networking for Businesses: Grow Your Connections
@@ -445,7 +449,9 @@ export const blogItems = [
     title: "Strategies for Growth",
     description:
       "Did you know 85% of all jobs come from networking? This shows how important a strong business network is for success. It helps you get insider info and grow your client base, no matter your job or career level...",
-    pageImage: <img src={image3} className="img-fluid" alt={"blog-image"} />,
+    pageImage: (
+      <img src={image3} className="img-fluid vw-100" alt={"blog-image"} />
+    ),
     pageTitle: (
       <p className="fs-4 text-orange-color fw-bold">
         Boost Your Business Network: Strategies for Growth
