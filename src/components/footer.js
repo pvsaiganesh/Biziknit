@@ -9,7 +9,9 @@ const Footer = () => {
   return (
     <div className="p-5 bg-5 mt-5">
       <div className="flex-fill text-center">
-        <img src={Logo} alt="img" className="img-fluid " />
+        <Link to="/">
+          <img src={Logo} alt="img" className="img-fluid " />
+        </Link>
       </div>
       <Social styles={"text-end pt-1 pb-0 p-5 w-20"} />
       <hr className="bg-white" />
