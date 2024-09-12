@@ -23,7 +23,7 @@ const JoinUs = () => {
             it's taken!
           </p>
         </div>
-        <div className="col-12 col-md-4 text-end align-self-center">
+        <div className="col-12 col-md-4 text-center text-md-end align-self-center">
           <button className="btn btn-light text-black">
             Search your pincode
           </button>
