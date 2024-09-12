@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/bizikintlogo.svg";
+import Logo from "../assets/biziknitlogo.svg";
 import "./home-components/joinus.js";
 import Social from "./home-components/soical.js";
 import logo from "../assets/logo-white.svg";
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="flex-fill text-center">
         <img src={Logo} alt="img" className="img-fluid " />
       </div>
-      <Social styles={"text-end p-5 w-20"} />
+      <Social styles={"text-end pt-1 pb-0 p-5 w-20"} />
       <hr className="bg-white" />
       <div className="container">
         <div className="row text-white">
@@ -98,7 +98,9 @@ const Footer = () => {
           </div>
 
           <div className="p-3 subscribe col-12 col-md-4 col-lg-4">
-            <p className="fs-4 fw-bold ">Subscribe to our newsletter</p>
+            <p className="fs-4 fw-bold mb-0 pb-0">
+              Subscribe to our newsletter
+            </p>
             <p className="fs-6 pb-3">Be the first to receive any new updated</p>
             <div className="input-group mb-3">
               <input
@@ -119,13 +121,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center text-white flex-grow-1">
+      <p className="d-none d-md-block position-relative text-white text-center fw-bold">
         Biziknit © 2024. All Rights Reserved
-      </div>
-      <div className="text-end text-white ">
-        A Product From
-        <img src={logo} alt="logo" />
-      </div>
+        <span className="text-white position-absolute end-0">
+          A Product From
+          <img src={logo} alt="logo" className="ps-2" />
+        </span>
+      </p>
     </div>
   );
 };
