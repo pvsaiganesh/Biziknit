@@ -15,31 +15,33 @@ const OurValues = () => {
         <div>
           <div className="text-start">
             <p className="fs-3 headings fw-bolder">Our Values</p>
+
             <ul>
-              <li>
-                <span className="fw-bolder">Holistic well-being-</span> Biziknit
-                gives equal importance to your physical, mental, social and
-                financial well being
+              <li className="p-2">
+                <span className="fw-bolder fs-5">Balanced Success: </span>{" "}
+                Prioritize all aspects of your well-being—physical, mental,
+                social, and financial.
               </li>
-              <li>
-                <span className="fw-bolder">Relationships, Not Contacts-</span>
-                Biziknit Believes in the power of healthy and fulfilling
-                relationships and provides a wholesome community to its members
+              <li className="p-2">
+                <span className="fw-bolder  fs-5">Meaningful Bonds: </span>
+                Build deeper, fulfilling relationships within a supportive
+                community.
               </li>
-              <li>
-                <span className="fw-bolder">Gratitude and reciprocity- </span>{" "}
-                Growth comes with a spirit of gratitude and a willingness to
-                extend a helping hand.
+              <li className="p-2">
+                <span className="fw-bolder fs-5"> Give and Grow: </span> Foster
+                success through gratitude and a spirit of mutual support.
               </li>
-              <li>
-                <span className="fw-bolder">Family involvement-</span> We
-                believe that family pays an important role in one’s life and
-                seek to increase family involvement at every step
+              <li className="p-2">
+                <span className="fw-bolder fs-5"> Family at the Heart: </span>
+                Celebrate family involvement, recognizing its impact on personal
+                and professional growth.
               </li>
-              <li>
-                <span className="fw-bolder">Contribution to Society-</span>{" "}
-                achievers regularly contributes to social causes and we strongly
-                believe in the social obligation of individuals.
+              <li className="p-2">
+                <span className="fw-bolder fs-5">
+                  Purpose - Driven Impact:{" "}
+                </span>
+                Commit to societal contributions and embrace your role in making
+                a difference.
               </li>
             </ul>
           </div>
