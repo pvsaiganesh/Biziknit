@@ -102,7 +102,7 @@ const Register = () => {
             </div>
           </div>
           <div className="mt-3 text-start  ps-2 ">
-            <button type="submit" className="bg-button ps-3 pe-3 pt-2 pb-2">
+            <button type="submit" className="bg-button ps-5 pe-5 pt-2 pb-2">
               Register
             </button>
             <p className="mt-2">

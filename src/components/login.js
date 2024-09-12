@@ -50,7 +50,7 @@ const Login = () => {
             </div>
             <button
               type="submit"
-              className="bg-button ps-3 pe-3 pt-2 pb-2 w-100 mt-3"
+              className="bg-button ps-5 pe-5 pt-2 pb-2 w-100 mt-3"
             >
               Login
             </button>

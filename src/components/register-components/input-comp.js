@@ -62,7 +62,7 @@ const InputComp = ({ label, type, func }) => {
               aria-describedby="button-addon2"
             />
             <button
-              className="btn  bg-button text-white"
+              className="btn  bg-button ps-5 pe-5 pt-2 pb-2 text-white"
               type="button "
               id="button-addon2"
             >
@@ -89,7 +89,7 @@ const InputComp = ({ label, type, func }) => {
             aria-describedby="button-addon2"
           />
           <button
-            className="btn  bg-button text-white"
+            className="btn  bg-button text-white ps-5 pe-5 pt-2 pb-2"
             onClick={func}
             type="button "
             id="button-addon2"

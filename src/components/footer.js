@@ -111,7 +111,7 @@ const Footer = () => {
                 aria-describedby="button-addon2"
               />
               <button
-                className="btn bg-button"
+                className="btn bg-button ps-5 pe-5 pt-2 pb-2"
                 type="button"
                 id="button-addon2"
               >
