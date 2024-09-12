@@ -30,7 +30,7 @@ const Navbar = () => {
               <li className="nav-item ">
                 <Link to={"/"} className="text-decoration-none text-start">
                   <span
-                    className="nav-link active text-decoration-none"
+                    className="nav-link active text-decoration-none pe-2"
                     aria-current="page"
                     href="#Home"
                   >
@@ -44,14 +44,14 @@ const Navbar = () => {
                   to={"/aboutus"}
                   className="text-decoration-none text-start"
                 >
-                  <span className="nav-link active" href="#Home">
+                  <span className="nav-link active pe-2" href="#Home">
                     About Us
                   </span>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to={"/blogs"} className="text-decoration-none text-start">
-                  <span className="nav-link active" href="#Home">
+                  <span className="nav-link active pe-2" href="#Home">
                     BLOGS
                   </span>
                 </Link>
@@ -61,14 +61,14 @@ const Navbar = () => {
                   to={"/contactus"}
                   className="text-decoration-none text-start"
                 >
-                  <span className="nav-link active" href="#Home">
+                  <span className="nav-link active pe-2" href="#Home">
                     CONTACT
                   </span>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to={"/login"} className="text-decoration-none text-start">
-                  <span className="nav-link active" href="#Home">
+                  <span className="nav-link active pe-2" href="#Home">
                     LOGIN
                   </span>
                 </Link>
