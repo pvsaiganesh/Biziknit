@@ -9,7 +9,7 @@ const WhatIsBiziknit = () => {
         <div className="d-block d-md-none  col-12 ">
           <img src={img} alt="img" className="img-fluid p-5" />
         </div>
-        <div className="bg-white col-12 col-md-8">
+        <div className="bg-white col-12 col-md-6">
           <div className="text-start ">
             <p className="fs-4 headings fw-bolder">What is Biziknit?</p>
             <p className="fs-6">
@@ -47,7 +47,7 @@ const WhatIsBiziknit = () => {
             </p>
           </div>
         </div>
-        <div className="d-none d-md-block col-4">
+        <div className="d-none d-md-block col-6">
           <img src={img} alt="img" className="img-fluid" />
         </div>
       </div>
