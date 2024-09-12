@@ -14,7 +14,7 @@ const OurValues = () => {
         </div>
         <div>
           <div className="text-start">
-            <p className="fs-4 headings fw-bolder">Our Values</p>
+            <p className="fs-3 headings fw-bolder">Our Values</p>
             <ul>
               <li>
                 <span className="fw-bolder">Holistic well-being-</span> Biziknit
