@@ -11,7 +11,7 @@ const ContactUs = () => {
       <Navbar />
       <div className="text-center hero p-5">
         <div className="p-3">
-          <p className="fs-2 text-orange-color fw-bolder">Contact Us</p>
+          <p className="fs-2 text-orange-color fw-bolder mb-0">Contact Us</p>
           <p className="fs-4">
             Any question or remarks? Just write us a message!
           </p>
