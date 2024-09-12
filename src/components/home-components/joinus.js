@@ -4,12 +4,22 @@ import "./joinus.scss";
 const JoinUs = () => {
   return (
     <div className="bg-5 d-flex flex-column flex-md-row justify-content-md-between align-items-center p-5  text-white text-center text-md-start">
-      <div>
+      <div className="d-block d-md-none">
         <p className="fs-5">Join Us For Meeting</p>
         <p className="fs-6">
           Visiting a Biziknit Chapter is free and gives you the chance to
           connect with quality business professionals from your local community
           to explore opportunities
+        </p>
+      </div>
+      <div className="d-none d-md-block">
+        <p className="fs-5">
+          Secure Your Spot! Be the Exclusive Business in Your Pincode.
+        </p>
+        <p className="fs-6">
+          Only one business per category per pincode is allowed—join us now to
+          claim your category and become the sole provider in your area before
+          it's taken!
         </p>
       </div>
       <div>
