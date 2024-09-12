@@ -11,7 +11,7 @@ const ContactUs = () => {
       <Navbar />
       <div className="text-center hero p-5">
         <div className="p-3">
-          <p className="fs-2 text-orange-color">Contact Us</p>
+          <p className="fs-2 text-orange-color fw-bolder">Contact Us</p>
           <p className="fs-4">
             Any question or remarks? Just write us a message!
           </p>
@@ -74,7 +74,7 @@ const ContactUs = () => {
             </div>
             <div className="col-12 col-md-6 contact-form text-start p-5">
               <div class="input-group-sm flex-wrap pb-5">
-                <label htmlFor="fullName" className="form-label fw-bold fs-5">
+                <label htmlFor="fullName" className="form-label fw-300 fs-5">
                   Full Name
                 </label>
                 <input
@@ -86,7 +86,7 @@ const ContactUs = () => {
                 />
               </div>
               <div class="input-group-sm flex-wrap pb-5">
-                <label htmlFor="fullName" className="form-label fw-bold fs-5">
+                <label htmlFor="fullName" className="form-label fw-300 fs-5">
                   Phone Number
                 </label>
                 <input
@@ -98,7 +98,7 @@ const ContactUs = () => {
                 />
               </div>
               <div class="input-group-sm flex-wrap pb-5">
-                <label htmlFor="email" className="form-label fw-bold fs-5">
+                <label htmlFor="email" className="form-label fw-300 fs-5">
                   Email
                 </label>
                 <input
@@ -110,7 +110,7 @@ const ContactUs = () => {
                 />
               </div>
               <div class="input-group-sm flex-wrap pb-5">
-                <label htmlFor="message" className="form-label fw-bold fs-5">
+                <label htmlFor="message" className="form-label fw-300 fs-5">
                   Message
                 </label>
                 <input
@@ -124,12 +124,12 @@ const ContactUs = () => {
               </div>
               <div className="text-end">
                 <button
-                  className="btn btn-lg   text-white send-message-button p-3  position-relative"
+                  className="btn btn-lg fs-5  text-white bg-button ps-5 pe-5 pt-2 pb-2  position-relative"
                   type="button "
                   id="button-addon2"
                 >
                   Send Message
-                  <span className="top-0 bottom-0 start-0  position-absolute">
+                  <span className="top-30 end-50  position-absolute">
                     <img src={Letter} alt="letter" />
                   </span>
                 </button>
