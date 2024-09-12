@@ -129,7 +129,7 @@ const Footer = () => {
       </div>
       <p className="d-none d-md-block position-relative text-white text-center fw-bold">
         Biziknit © 2024. All Rights Reserved
-        <span className="text-white position-absolute end-0">
+        <span className="text-white position-absolute end-0 top-100">
           A Product From
           <img src={logo} alt="logo" className="ps-2" />
         </span>

@@ -13,12 +13,10 @@ const AboutUs = () => {
     <div className="hero">
       <Navbar />
       <div className="hero bg-9 d-flex flex-column justify-content-center align-items-center">
-        <div style={{ position: "relative" }} className="svg-props">
+        <div className="svg-props position-relative">
           <Splash />
         </div>
-        <div style={{ position: "absolute" }} className="heading-text">
-          About Us
-        </div>
+        <div className="heading-text position-absolute">About Us</div>
       </div>
       <div className="container p-3 pt-5 pb-1 pe-5 ps-5">
         <div className="row">

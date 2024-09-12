@@ -18,26 +18,26 @@ const OurValues = () => {
 
             <ul>
               <li className="p-2">
-                <span className="fw-bolder fs-5">Balanced Success: </span>{" "}
+                <span className="fw-bolder fs-6">Balanced Success: </span>{" "}
                 Prioritize all aspects of your well-being—physical, mental,
                 social, and financial.
               </li>
               <li className="p-2">
-                <span className="fw-bolder  fs-5">Meaningful Bonds: </span>
+                <span className="fw-bolder  fs-6">Meaningful Bonds: </span>
                 Build deeper, fulfilling relationships within a supportive
                 community.
               </li>
               <li className="p-2">
-                <span className="fw-bolder fs-5"> Give and Grow: </span> Foster
+                <span className="fw-bolder fs-6"> Give and Grow: </span> Foster
                 success through gratitude and a spirit of mutual support.
               </li>
               <li className="p-2">
-                <span className="fw-bolder fs-5"> Family at the Heart: </span>
+                <span className="fw-bolder fs-6"> Family at the Heart: </span>
                 Celebrate family involvement, recognizing its impact on personal
                 and professional growth.
               </li>
               <li className="p-2">
-                <span className="fw-bolder fs-5">
+                <span className="fw-bolder fs-6">
                   Purpose - Driven Impact:{" "}
                 </span>
                 Commit to societal contributions and embrace your role in making
