@@ -18,11 +18,6 @@ const WhyJoin = () => {
               clients.
             </li>
             <li>
-              <span className="fw-bolder">Relationships, Not Contacts-</span>
-              Be the go-to business in your area with unique visibility to local
-              clients.
-            </li>
-            <li>
               <span className="fw-bolder">Network With Peers:</span> Build
               connections with like-minded business owners who can offer
               support, encouragement, and referral opportunities.
@@ -40,7 +35,7 @@ const WhyJoin = () => {
           </ul>
         </div>
         <div className="p-5 d-none d-md-block">
-          <img src={img} alt="img" />
+          <img src={img} alt="img" className="img-fluid" />
         </div>
       </div>
     </div>
