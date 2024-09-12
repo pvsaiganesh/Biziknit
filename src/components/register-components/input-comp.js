@@ -37,7 +37,7 @@ const InputComp = ({ label, type, func }) => {
               console.log(e.target.value);
             }}
             className="form-control"
-            id="basic-url"
+            id="basic-url-1"
             aria-describedby="basic-addon3 basic-addon4 button-addon2"
           />
         )}
@@ -48,7 +48,7 @@ const InputComp = ({ label, type, func }) => {
               console.log(e.target.value);
             }}
             className="form-control"
-            id="basic-url"
+            id="basic-url-2"
             aria-describedby="basic-addon3 basic-addon4 button-addon2"
           />
         )}
@@ -105,7 +105,7 @@ const InputComp = ({ label, type, func }) => {
             console.log(e.target.value);
           }}
           className="form-control"
-          id="basic-url"
+          id="basic-url-4"
           aria-describedby="basic-addon3 basic-addon4 button-addon2"
         />
       )}
@@ -116,7 +116,7 @@ const InputComp = ({ label, type, func }) => {
             console.log(e.target.value);
           }}
           className="form-control"
-          id="basic-url"
+          id="basic-url-5"
           aria-describedby="basic-addon3 basic-addon4 button-addon2"
         />
       )}
@@ -127,7 +127,7 @@ const InputComp = ({ label, type, func }) => {
             console.log(e.target.value);
           }}
           className="form-control"
-          id="basic-url"
+          id="basic-url-6"
           aria-describedby="basic-addon3 basic-addon4 button-addon2"
         />
       )}
@@ -138,7 +138,7 @@ const InputComp = ({ label, type, func }) => {
             console.log(e.target.value);
           }}
           className="form-control"
-          id="basic-url"
+          id="basic-url-7"
           aria-describedby="basic-addon3 basic-addon4 button-addon2"
         />
       )}
@@ -149,7 +149,7 @@ const InputComp = ({ label, type, func }) => {
             console.log(e.target.value);
           }}
           className="form-control"
-          id="basic-url"
+          id="basic-url-8"
           aria-describedby="basic-addon3 basic-addon4 button-addon2"
         />
       )}
@@ -160,7 +160,7 @@ const InputComp = ({ label, type, func }) => {
             console.log(e.target.value);
           }}
           className="form-control"
-          id="basic-url"
+          id="basic-url-9"
           aria-describedby="basic-addon3 basic-addon4 button-addon2"
         />
       )}

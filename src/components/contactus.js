@@ -73,7 +73,7 @@ const ContactUs = () => {
               <Social styles="text-start" />
             </div>
             <div className="col-12 col-md-6 contact-form text-start p-5">
-              <div class="input-group-sm flex-wrap pb-5">
+              <div className="input-group-sm flex-wrap pb-5">
                 <label htmlFor="fullName" className="form-label fw-300 fs-5">
                   Full Name
                 </label>
@@ -85,7 +85,7 @@ const ContactUs = () => {
                   aria-describedby="addon-wrapping"
                 />
               </div>
-              <div class="input-group-sm flex-wrap pb-5">
+              <div className="input-group-sm flex-wrap pb-5">
                 <label htmlFor="fullName" className="form-label fw-300 fs-5">
                   Phone Number
                 </label>
@@ -97,7 +97,7 @@ const ContactUs = () => {
                   aria-describedby="addon-wrapping"
                 />
               </div>
-              <div class="input-group-sm flex-wrap pb-5">
+              <div className="input-group-sm flex-wrap pb-5">
                 <label htmlFor="email" className="form-label fw-300 fs-5">
                   Email
                 </label>
@@ -109,7 +109,7 @@ const ContactUs = () => {
                   aria-describedby="addon-wrapping"
                 />
               </div>
-              <div class="input-group-sm flex-wrap pb-5">
+              <div className="input-group-sm flex-wrap pb-5">
                 <label htmlFor="message" className="form-label fw-300 fs-5">
                   Message
                 </label>

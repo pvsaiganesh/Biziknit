@@ -30,7 +30,7 @@ const Navbar = () => {
             className="ml-auto collapse navbar-collapse text-white pe-5"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase justify-content-right">
+            <ul className="navbar-nav ms-5 mb-2 mb-lg-0 text-uppercase justify-content-right ">
               <li className="nav-item ">
                 <Link to={"/"} className="text-decoration-none text-start">
                   <span
