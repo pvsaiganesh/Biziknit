@@ -48,12 +48,18 @@ const Login = () => {
                 <InputComp {...ele2} />
               </div>
             </div>
-            <button
-              type="submit"
-              className="bg-button ps-5 pe-5 pt-2 pb-2 w-100 mt-3"
-            >
-              Login
-            </button>
+            <div className="mt-3 text-start  ps-2 ">
+              <button
+                type="submit"
+                className="bg-button ps-5 pe-5 pt-2 pb-2 w-100 mt-3"
+              >
+                Login
+              </button>
+              <p className="pt-3">
+                Don’t have an Account?{" "}
+                <span className="text-orange-color">Register</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
