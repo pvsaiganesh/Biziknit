@@ -4,14 +4,14 @@ import "./whatisbiziknit.scss";
 
 const WhatIsBiziknit = () => {
   return (
-    <>
-      <div className="d-block d-md-none">
-        <img src={img} alt="img" className="img-fluid p-5" />
-      </div>
-      <div className="d-flex flex-row justify-content-between align-items-center p-5 bg-white">
-        <div className="pe-5">
+    <div className="container">
+      <div className="row p-5">
+        <div className="d-block d-md-none  col-12 ">
+          <img src={img} alt="img" className="img-fluid p-5" />
+        </div>
+        <div className="bg-white col-12 col-md-8">
           <div className="text-start ">
-            <p className="fs-3 headings fw-bolder">What is Biziknit?</p>
+            <p className="fs-4 headings fw-bolder">What is Biziknit?</p>
             <p className="fs-6">
               Biziknit is a group of ambitious business owners who meet every
               week over breakfast and help each other to optimize and develop
@@ -19,7 +19,7 @@ const WhatIsBiziknit = () => {
             </p>
           </div>
           <div className="text-start">
-            <p className="fs-4 headings fw-bolder">Supercharge your Business</p>
+            <p className="fs-5 headings fw-bolder">Supercharge your Business</p>
             <p className="fs-6">
               Gain a competitive edge as the only business of your kind in your
               area. Benefit from referrals and auto lead generation to grow your
@@ -27,7 +27,7 @@ const WhatIsBiziknit = () => {
             </p>
           </div>
           <div className="text-start">
-            <p className="fs-4 headings fw-bolder">
+            <p className="fs-5 headings fw-bolder">
               Have a Meaningful Social life
             </p>
             <p className="fs-6">
@@ -37,7 +37,7 @@ const WhatIsBiziknit = () => {
             </p>
           </div>
           <div className="text-start">
-            <p className="fs-4 headings fw-bolder">
+            <p className="fs-5 headings fw-bolder">
               Accelerate your Personal Growth
             </p>
             <p className="fs-6">
@@ -47,11 +47,11 @@ const WhatIsBiziknit = () => {
             </p>
           </div>
         </div>
-        <div className="d-none d-md-block">
-          <img src={img} alt="img" />
+        <div className="d-none d-md-block col-4">
+          <img src={img} alt="img" className="img-fluid" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
