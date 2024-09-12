@@ -20,10 +20,10 @@ const Home = () => {
     <>
       <Navbar />
       <div id="home" className="hero">
-        <div className="bg-2 p-5 pt-0 pb-0 ps-5 pe-5  gap-0 container-fluid d-flex flex-column  justify-content-center align-items-end ">
-          <div className="row align-items-end">
-            <div className="text-light text-center text-md-start d-flex flex-row justify-content-center align-items-baseline ">
-              <div className="align-self-center text-center text-md-start pe-0 pe-md-5">
+        <div className="bg-2 p-5 pt-0 pb-0 ps-5 pe-5  gap-0 container-fluid">
+          <div className="row  d-flex flex-row jusity-content-center aling-items-center">
+            <div className="text-light text-center text-md-start col-12 col-md-8 align-self-center">
+              <div className=" pe-0 pe-md-5">
                 <p className="fs-1 fw-bold">
                   Connect, Collaborate, and Conquer Market with Biziknit
                 </p>
@@ -38,9 +38,9 @@ const Home = () => {
                   </button>
                 </p>
               </div>
-              <div className=" d-none d-md-block  d-flex flex-column justify-content-start align-items-baseline ">
-                <img src={worker} alt="worker" className="img-fluid worker" />
-              </div>
+            </div>
+            <div className=" d-none d-md-block  col-4 text-start">
+              <img src={worker} alt="worker" className="img-fluid worker" />
             </div>
             <div className="align-self-center d-none d-md-block  rounded-3 rounded-bottom-0 infos-container  p-4 ps-5 pe-5 mb-0 w-100">
               <div className="d-flex flex-row justify-content-around align-items-center">
