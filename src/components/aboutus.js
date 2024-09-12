@@ -20,13 +20,13 @@ const AboutUs = () => {
           About Us
         </div>
       </div>
-      <div className="container p-5">
+      <div className="container p-3 pt-5 pb-1 pe-5 ps-5">
         <div className="row">
-          <div className="col-12 d-md-none pb-3">
+          <div className="col-12 d-md-none  pb-3 pb-md-0">
             <img src={img} alt="img" className="img-fluid" />
           </div>
-          <div className="col-12 col-md-7 text-start">
-            <p className="fs-4 text-orange-color  fw-bold">About Us</p>
+          <div className="col-12 col-md-6 text-start">
+            <p className="fs-4 text-orange-color  fw-bolder">About Us</p>
             <p className="fs-6">
               At Biziknit, we understand the challenges faced by small business
               owners in today's competitive landscape. That's why we've created
@@ -37,40 +37,46 @@ const AboutUs = () => {
               lead generation, and collaborative growth opportunities.
             </p>
             <p className="fs-6">
-              <span className="fs-5 text-orange-color">Our vision</span> is to
-              empower small and medium enterprises (SMEs) to become leaders in
-              their local markets. Together, we can create a supportive
-              ecosystem that fosters innovation and mutual success.
+              <span className="fs-5 text-orange-color fw-bold">Our vision</span>{" "}
+              is to empower small and medium enterprises (SMEs) to become
+              leaders in their local markets. Together, we can create a
+              supportive ecosystem that fosters innovation and mutual success.
             </p>
           </div>
-          <div className="col-5 d-none d-md-block">
-            <img src={img} alt="img" className="img-fluid" />
+          <div className="col-6 d-none d-md-block">
+            <img src={img} alt="img" className="img-fluid image-size" />
           </div>
         </div>
       </div>
-      <div className="container p-5">
+      <div className="container p-3  pb-1 pe-5 ps-5">
         <div className="row">
-          <div className="col-12 col-md-5 pb-3">
-            <img src={img2} alt="img" className="img-fluid" />
+          <div className="col-12 col-md-5 pb-3 pb-md-0">
+            <img src={img2} alt="img" className="img-fluid image-size" />
           </div>
-          <div className="col-12 col-md-7 text-start">
-            <p className="fs-4 text-orange-color fw-bold">How Biziknit Works</p>
+          <div className="col-12 col-md-6  text-start">
+            <p className="fs-4 text-orange-color fw-bolder">
+              How Biziknit Works
+            </p>
             <ul>
               <li>
-                <span className="text-orange-color">Find Your Community:</span>{" "}
+                <span className="text-orange-color fw-bold">
+                  Find Your Community:
+                </span>{" "}
                 Once you join, you'll be categorized alongside other SMEs in
                 your specific pin code. This ensures that you are part of an
                 exclusive network where you can trust and rely on each other for
                 referrals.
               </li>
               <li>
-                <span className="text-orange-color">Receive Referrals:</span>{" "}
+                <span className="text-orange-color fw-bold">
+                  Receive Referrals:
+                </span>{" "}
                 Our members' loyal recommendations mean you get new clients
                 right from the start. Connect with businesses that resonate with
                 your services and create valuable partnerships.
               </li>
               <li>
-                <span className="text-orange-color">
+                <span className="text-orange-color fw-bold">
                   Automated Lead Generation:
                 </span>{" "}
                 Take the work out of prospecting! With our innovative auto lead
@@ -78,7 +84,9 @@ const AboutUs = () => {
                 without the hassle.
               </li>
               <li>
-                <span className="text-orange-color">Collaborate and Grow:</span>{" "}
+                <span className="text-orange-color fw-bold">
+                  Collaborate and Grow:
+                </span>{" "}
                 Take part in community events, workshops, and resources designed
                 to enhance your skills and expand your business footprint.
               </li>
@@ -86,42 +94,48 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="container p-5">
+      <div className="container p-3  pb-1 pe-5 ps-5">
         <div className="row">
-          <div className="col-12 d-md-none pb-3">
+          <div className="col-12 d-md-none  pb-3 pb-md-0">
             <img src={img3} alt="img" className="img-fluid" />
           </div>
-          <div className="col-12 col-md-7 text-start">
-            <p className="fs-4 text-orange-color  fw-bold">
+          <div className="col-12 col-md-6  text-start">
+            <p className="fs-4 text-orange-color  fw-bolder">
               Why Join Biziknit?
             </p>
             <ul>
               <li>
-                <span className="text-orange-color">Exclusive Coverage:</span>
+                <span className="text-orange-color fw-bold">
+                  Exclusive Coverage:
+                </span>
                 Be the go-to business in your area with unique visibility to
                 local clients.
               </li>
               <li>
-                <span className="text-orange-color">Network With Peers:</span>
+                <span className="text-orange-color fw-bold">
+                  Network With Peers:
+                </span>
                 Build connections with like-minded business owners who can offer
                 support, encouragement, and referral opportunities.
               </li>
               <li>
-                <span className="text-orange-color">
+                <span className="text-orange-color fw-bold">
                   Streamlined Lead Generation:
                 </span>
                 Leverage our state-of-the-art technology to receive quality
                 leads without lifting a finger.
               </li>
               <li>
-                <span className="text-orange-color">Resource Sharing:</span>
+                <span className="text-orange-color fw-bold">
+                  Resource Sharing:
+                </span>
                 Gain access to valuable resources including marketing tips,
                 business tools, and educational content from experts.
               </li>
             </ul>
           </div>
-          <div className="col-5 d-none d-md-block">
-            <img src={img3} alt="img" className="img-fluid" />
+          <div className="col-5 col-md-6 d-none d-md-block">
+            <img src={img3} alt="img" className="img-fluid  image-size" />
           </div>
         </div>
       </div>
