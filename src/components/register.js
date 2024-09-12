@@ -29,12 +29,12 @@ const Register = () => {
     icon: <i className="bi bi-geo-alt" />,
     type: "date",
   };
-  const ele11 = {
-    label: "Amount",
-    defaultValue: 1000,
-    type: "number",
-    button: true,
-  };
+  // const ele11 = {
+  //   label: "Amount",
+  //   defaultValue: 1000,
+  //   type: "number",
+  //   button: true,
+  // };
   const ele12 = {
     label: "Profile Pic",
     icon: <i className="bi bi-geo-alt" />,
@@ -83,22 +83,23 @@ const Register = () => {
           <p className="fs-6 m-0 ps-2 ">
             Hey enter your details to create your account
           </p>
-          <div className="text-start d-flex flex-column flex-lg-row justify-content-between">
-            <div className="d-flex flex-column flex-fill p-5 pb-2 ps-0 pe-0 pe-lg-5">
-              <InputComp {...ele1} />
-              <InputComp {...ele2} />
-              <InputComp {...ele3} />
-              <InputComp {...ele8} />
-              <InputComp {...ele10} />
-              <InputComp {...ele12} />
-            </div>
-            <div className="d-flex flex-column flex-fill p-5 pb-2 pe-0 ps-0">
-              <InputComp {...ele4} />
-              <InputComp {...ele5} />
-              <InputComp {...ele6} />
-              <InputComp {...ele7} />
-              <InputComp {...ele11} />
-              <InputComp {...ele13} />
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6">
+                <InputComp {...ele1} />
+                <InputComp {...ele2} />
+                <InputComp {...ele3} />
+                <InputComp {...ele8} />
+                <InputComp {...ele10} />
+                <InputComp {...ele12} />
+              </div>
+              <div className="col-12 col-md-6">
+                <InputComp {...ele4} />
+                <InputComp {...ele5} />
+                <InputComp {...ele6} />
+                <InputComp {...ele7} />
+                <InputComp {...ele13} />
+              </div>
             </div>
           </div>
           <div className="mt-3 text-start  ps-2 ">
