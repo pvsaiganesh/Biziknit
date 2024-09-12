@@ -7,6 +7,7 @@ import Testimonials from "./home-components/testimonials";
 import Footer from "./footer";
 import "./aboutus.scss";
 import Navbar from "./home-components/navbar";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -139,21 +140,15 @@ const AboutUs = () => {
       </div>
       <Testimonials />
 
-      <div className="bg-5 d-flex flex-column flex-md-row justify-content-md-between p-5  text-white text-center text-md-start mb-5">
+      <div className="bg-12 d-flex flex-column flex-md-row justify-content-md-center p-5  text-white text-center mb-5">
         <div className="pe-2">
-          <p className="fs-5">
-            Secure Your Spot! Be the Exclusive Business in Your Pincode.
-          </p>
-          <p className="fs-6">
-            Only one business per category per pincode is allowed—join us now to
-            claim your category and become the sole provider in your area before
-            it's taken!
-          </p>
-        </div>
-        <div>
-          <button className="btn btn-light text-black">
-            Search your pincode
-          </button>
+          <p className="fs-4 fw-bold">Are You Ready</p>
+          <p className="fs-6 fw-bold">To scale up your business with us</p>
+          <Link to={"/register"} className="text-decoration-none text-start">
+            <button className="btn btn-outline-light fw-bold" type="submit">
+              Register Now
+            </button>
+          </Link>
         </div>
       </div>
       <Footer />

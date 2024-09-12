@@ -12,22 +12,22 @@ const WhyJoin = () => {
         <div className="text-start">
           <p className="fs-4 headings fw-bolder">Why Join Biziknit?</p>
           <ul>
-            <li>
+            <li className="p-2">
               <span className="fw-bolder">Exclusive Coverage: </span> Be the
               go-to business in your area with unique visibility to local
               clients.
             </li>
-            <li>
+            <li className="p-2">
               <span className="fw-bolder">Network With Peers:</span> Build
               connections with like-minded business owners who can offer
               support, encouragement, and referral opportunities.
             </li>
-            <li>
+            <li className="p-2">
               <span className="fw-bolder">Streamlined Lead Generation:</span>{" "}
               Leverage our state-of-the-art technology to receive quality leads
               without lifting a finger.
             </li>
-            <li>
+            <li className="p-2">
               <span className="fw-bolder">Resource Sharing:</span>Gain access to
               valuable resources including marketing tips, business tools, and
               educational content from experts.
