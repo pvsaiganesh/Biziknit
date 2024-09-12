@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="p-5 bg-5">
+    <div className="p-5 bg-5 mt-5">
       <div className="flex-fill text-center">
         <img src={Logo} alt="img" className="img-fluid " />
       </div>
@@ -15,7 +15,7 @@ const Footer = () => {
       <hr className="bg-white" />
       <div className="container">
         <div className="row text-white">
-          <div className="p-3 reachus text-start d-flex flex-column col-12 col-md-4 col-lg-4">
+          <div className="p-3 reachus text-start d-flex flex-column col-6 col-md-4 col-lg-4">
             <p className="fs-6 fw-bold">Reach us</p>
             <p className="pb-3">
               <span>
@@ -68,7 +68,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="p-3 pages d-flex flex-column  col-12 col-md-2 col-lg-2">
+          <div className="p-3 pages d-flex flex-column  col-6 col-md-2 col-lg-2">
             <p className="fs-6 fw-bold ">Pages</p>
             <Link to="/" className="text-decoration-none text-white pb-3">
               <p className="fs-6">Home</p>
@@ -90,15 +90,15 @@ const Footer = () => {
             </Link>
           </div>
 
-          <div className="p-3 legal d-flex flex-column col-12 col-md-2 col-lg-2">
+          <div className="p-3 legal d-flex flex-column col-6 col-md-2 col-lg-2">
             <p className="fs-6 fw-bold">Legal</p>
             <p className="fs-6 pb-3">Privacy Policy</p>
             <p className="fs-6 pb-3">Terms and Services</p>
             <p className="fs-6 pb-3">Terms of Use</p>
           </div>
 
-          <div className="p-3 subscribe col-12 col-md-4 col-lg-4">
-            <p className="fs-4 fw-bold mb-0 pb-0">
+          <div className="p-3 subscribe d-none d-md-block col-md-4 col-lg-4">
+            <p className="fs-4 fw-bold mb-0 pb-0 ">
               Subscribe to our newsletter
             </p>
             <p className="fs-6 pb-3">Be the first to receive any new updated</p>
@@ -118,6 +118,12 @@ const Footer = () => {
                 Subscribe
               </button>
             </div>
+          </div>
+          <div className="p-3 legal d-md-none d-flex flex-column col-6 col-md-2 col-lg-2">
+            <p className="fs-6 fw-bold">Businesses</p>
+            <p className="fs-6 pb-3">Vasmi Group</p>
+            <p className="fs-6 pb-3">JS Insurance</p>
+            <p className="fs-6 pb-3">AGV</p>
           </div>
         </div>
       </div>
