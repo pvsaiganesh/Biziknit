@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="container-fluid">
           <Link
             to={"/"}
-            className="navbar-brand text-decoration-none text-start ps-5 "
+            className="navbar-brand text-decoration-none text-start ps-5"
           >
             <img src={Logo} alt="img" className="img-fluid" />
           </Link>
@@ -31,10 +31,10 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav ms-auto ps-5 mb-2 mb-lg-0 text-uppercase justify-content-right ">
-              <li className="nav-item ">
+              <li className="nav-item pe-2">
                 <Link to={"/"} className="text-decoration-none text-start">
                   <span
-                    className="nav-link active text-decoration-none pe-2"
+                    className="nav-link active text-decoration-none "
                     aria-current="page"
                     href="#Home"
                   >
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </Link>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item pe-2">
                 <Link
                   to={"/aboutus"}
                   className="text-decoration-none text-start"
@@ -53,14 +53,14 @@ const Navbar = () => {
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item pe-2">
                 <Link to={"/blogs"} className="text-decoration-none text-start">
                   <span className="nav-link active pe-2" href="#Home">
                     BLOGS
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item pe-2">
                 <Link
                   to={"/contactus"}
                   className="text-decoration-none text-start"
@@ -70,14 +70,14 @@ const Navbar = () => {
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item pe-2">
                 <Link to={"/login"} className="text-decoration-none text-start">
                   <span className="nav-link active pe-2" href="#Home">
                     LOGIN
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item pe-2">
                 <Link
                   to={"/register"}
                   className="text-decoration-none text-start"
