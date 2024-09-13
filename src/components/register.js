@@ -80,7 +80,7 @@ const Register = () => {
       <div className=" p-5 m-0 d-flex flex-row justify-content-center align-items-center flex-grow-1">
         <div className="p-4 pt-2 pb-2 text-start border rounded w-100  shadow">
           <p className="fs-3 m-0 ps-2 fw-bold">Register</p>
-          <p className="fs-6 m-0 ps-2 ">
+          <p className="fs-6 m-0 ps-2 pb-4">
             Hey enter your details to create your account
           </p>
           <div className="container">
@@ -102,7 +102,7 @@ const Register = () => {
               </div>
             </div>
           </div>
-          <div className="mt-3 text-start  ps-2 ">
+          <div className="mt-4 text-start  ps-2 ">
             <button type="submit" className="bg-button ps-5 pe-5 pt-2 pb-2">
               Register
             </button>
