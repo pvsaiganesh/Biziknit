@@ -24,8 +24,8 @@ const JoinUs = () => {
           </p>
         </div>
         <div className="col-12 col-md-4 text-center text-md-end align-self-center">
-          <button className="btn btn-light text-black">
-            Search your pincode
+          <button className="btn btn-light text-black fw-bold">
+            Search in your pincode
           </button>
         </div>
       </div>

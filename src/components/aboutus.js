@@ -7,7 +7,6 @@ import Testimonials from "./home-components/testimonials";
 import Footer from "./footer";
 import "./aboutus.scss";
 import Navbar from "./home-components/navbar";
-import { Link } from "react-router-dom";
 import ReadyCard from "./home-components/areyouready";
 
 const AboutUs = () => {
