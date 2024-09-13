@@ -31,7 +31,7 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav ms-auto ps-5 mb-2 mb-lg-0 text-uppercase justify-content-right ">
-              <li className="nav-item pe-2">
+              <li className="nav-item pe-4">
                 <Link to={"/"} className="text-decoration-none text-start">
                   <span
                     className="nav-link active text-decoration-none "
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </Link>
               </li>
 
-              <li className="nav-item pe-2">
+              <li className="nav-item pe-4">
                 <Link
                   to={"/aboutus"}
                   className="text-decoration-none text-start"
@@ -53,14 +53,14 @@ const Navbar = () => {
                   </span>
                 </Link>
               </li>
-              <li className="nav-item pe-2">
+              <li className="nav-item pe-4">
                 <Link to={"/blogs"} className="text-decoration-none text-start">
                   <span className="nav-link active pe-2" href="#Home">
                     BLOGS
                   </span>
                 </Link>
               </li>
-              <li className="nav-item pe-2">
+              <li className="nav-item pe-4">
                 <Link
                   to={"/contactus"}
                   className="text-decoration-none text-start"
@@ -70,14 +70,14 @@ const Navbar = () => {
                   </span>
                 </Link>
               </li>
-              <li className="nav-item pe-2">
+              <li className="nav-item pe-4">
                 <Link to={"/login"} className="text-decoration-none text-start">
                   <span className="nav-link active pe-2" href="#Home">
                     LOGIN
                   </span>
                 </Link>
               </li>
-              <li className="nav-item pe-2">
+              <li className="nav-item">
                 <Link
                   to={"/register"}
                   className="text-decoration-none text-start"
