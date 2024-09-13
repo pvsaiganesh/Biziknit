@@ -19,8 +19,8 @@ const TestimonialItem = ({ id, review, name, testiImg, slideOption }) => {
             className="img-fluid d-md-none img-fluid"
           />
 
-          <p className="fs-6 pb-2">{review}</p>
-          <p className="fs-6 pb-2">{name}</p>
+          <p className="fs-5 pb-2">{review}</p>
+          <p className="fs-5 pb-2">{name}</p>
         </div>
         <div className="ps-5 pe-5 ">
           <img
