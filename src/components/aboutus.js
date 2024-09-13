@@ -8,6 +8,7 @@ import Footer from "./footer";
 import "./aboutus.scss";
 import Navbar from "./home-components/navbar";
 import { Link } from "react-router-dom";
+import ReadyCard from "./home-components/areyouready";
 
 const AboutUs = () => {
   return (
@@ -139,18 +140,7 @@ const AboutUs = () => {
         </div>
       </div>
       <Testimonials />
-
-      <div className="bg-12 d-flex flex-column flex-md-row justify-content-md-center p-5  text-white text-center mb-5">
-        <div className="pe-2">
-          <p className="fs-4 fw-bold">Are You Ready</p>
-          <p className="fs-6 fw-bold">To scale up your business with us</p>
-          <Link to={"/register"} className="text-decoration-none text-start">
-            <button className="btn btn-outline-light fw-bold" type="submit">
-              Register Now
-            </button>
-          </Link>
-        </div>
-      </div>
+      <ReadyCard />
       <Footer />
     </div>
   );
