@@ -7,9 +7,9 @@ import "./contactus.scss";
 
 const ContactUs = () => {
   return (
-    <>
+    <div className="hero">
       <Navbar />
-      <div className="text-center hero p-1 p-md-5">
+      <div className="text-center  p-1 p-md-5">
         <div className="p-3">
           <p className="fs-2 text-orange-color fw-bolder mb-0">Contact Us</p>
           <p className="fs-4">
@@ -139,7 +139,7 @@ const ContactUs = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

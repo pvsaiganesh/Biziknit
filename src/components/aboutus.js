@@ -19,7 +19,7 @@ const AboutUs = () => {
         </div>
         <div className="heading-text position-absolute">About Us</div>
       </div>
-      <div className="container p-1 p-md-3 pt-5 pb-1 pe-5 ps-5">
+      <div className="container p-1 p-md-3 pt-md-5 pb-1 pe-5 ps-5">
         <div className="row">
           <div className="col-12 d-md-none  pb-3 pb-md-0">
             <img src={img} alt="img" className="img-fluid" />
