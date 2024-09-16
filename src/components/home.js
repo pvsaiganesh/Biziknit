@@ -17,9 +17,9 @@ import Navbar from "./home-components/navbar.js";
 
 const Home = () => {
   return (
-    <>
+    <div className="hero">
       <Navbar />
-      <div id="home" className="hero">
+      <div id="home">
         <div className="bg-2 p-5 pt-0 pb-0 ps-5 pe-5  gap-0 container-fluid">
           <div className="row  d-flex flex-row jusity-content-center aling-items-center">
             <div className="text-light text-center text-md-start col-12 col-md-8 align-self-center">
@@ -88,7 +88,7 @@ const Home = () => {
         <ReadyCard />
         <Footer />
       </div>
-    </>
+    </div>
   );
 };
 

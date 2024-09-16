@@ -9,7 +9,7 @@ const BlogsPage = () => {
   return (
     <div className="hero">
       <Navbar />
-      <div className="hero bg-8 d-flex flex-column justify-content-center align-items-center">
+      <div className="bg-8 d-flex flex-column justify-content-center align-items-center">
         <div className="svg-props position-relative">
           <Splash />
         </div>
