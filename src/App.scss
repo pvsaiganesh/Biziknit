@@ -1,6 +1,17 @@
+@font-face {
+  font-family: "sansation-font"; /*Can be any text*/
+  src: local("Sansation"),
+    url(../fonts/Sansation_Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "mont-serret"; /*Can be any text*/
+  src: local("Montserret"),
+    url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
 * {
-  font-family: "Open Sans", sans-serif !important;
-  font-size: 18px !important;
+  font-family: "sansation-font" !important;
+  font-size: 20px !important;
 }
 
 .App {

@@ -33,7 +33,10 @@ const Home = () => {
                   for you!
                 </p>
                 <p>
-                  <button type="button" className="btn btn-outline-light">
+                  <button
+                    type="button"
+                    className="btn btn-outline-light ps-5 pe-5 pt-2 pb-2 fw-bold"
+                  >
                     Join Now
                   </button>
                 </p>

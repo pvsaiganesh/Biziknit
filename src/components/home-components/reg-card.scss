@@ -19,6 +19,9 @@ ul {
   width: 100%;
   pointer-events: none; /* This makes sure that we can still click outside of the modal to close it */
 }
+.model {
+  font-family: "mont-serret";
+}
 .vertical-align-center {
   /* To center vertically */
   display: table-cell;

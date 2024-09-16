@@ -81,6 +81,14 @@ const RegCard = () => {
                           experts.
                         </li>
                       </ul>
+                      <Link to={"/register"}>
+                        <button
+                          type="submit"
+                          className="btn btn-light text-uppercase text-orange-color"
+                        >
+                          Register Now
+                        </button>
+                      </Link>
                       <div className="position-absolute  bottom-0 start-100">
                         <img src={modalImg} alt="img" />
                       </div>
