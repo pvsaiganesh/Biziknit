@@ -23,26 +23,71 @@ const RegCard = () => {
           </div>
         </div>
       </div>
-
-      <p
-        data-bs-toggle="modal"
-        data-bs-target="#registerModal"
-        className="fs-6 text-white text-decoration-underline text-end pe-5 pb-2 register-link"
-      >
-        Why you should register?
-      </p>
-
-      <div
-        className="modal fade"
-        id="registerModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog">
-          <div className="modal-content rounded-3  bg">
-            <div className="modal-body">
-              <img src={modalImg} alt="img" />
+      <div className="d-none d-md-block ">
+        <p
+          data-bs-toggle="modal"
+          data-bs-target="#registerModal"
+          className="fs-6 text-white text-decoration-underline text-end pe-5 pb-2 register-link"
+        >
+          Why you should register?
+        </p>
+        <div
+          className="modal fade"
+          id="registerModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog modal-xl modal-dialog-centered">
+            <div className="modal-content rounded-3  bg">
+              <div className="modal-body">
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-8 text-white position-relative">
+                      <p className="fs-4 fw-bold">Why You Should Register</p>
+                      <ul>
+                        <li className="fs-6">
+                          <i class="bi bi-star-fill pe-3"></i>
+                          <span className="fw-bold">
+                            Exclusive Coverage:
+                          </span>{" "}
+                          Be the go-to business in your area with unique
+                          visibility to local clients.
+                        </li>
+                        <li className="fs-6">
+                          <i class="bi bi-star-fill pe-3"></i>
+                          <span className="fw-bold">
+                            Network With Peers:
+                          </span>{" "}
+                          Build connections with like-minded business owners who
+                          can offer support, encouragement, and referral
+                          opportunities.
+                        </li>
+                        <li className="fs-6">
+                          <i class="bi bi-star-fill pe-3"></i>
+                          <span className="fw-bold">
+                            Streamlined Lead Generation:
+                          </span>{" "}
+                          Leverage our state-of-the-art technology to receive
+                          quality leads without lifting a finger.
+                        </li>
+                        <li className="fs-6">
+                          <i class="bi bi-star-fill pe-3"></i>
+                          <span className="fw-bold">
+                            Resource Sharing:
+                          </span>{" "}
+                          Gain access to valuable resources including marketing
+                          tips, business tools, and educational content from
+                          experts.
+                        </li>
+                      </ul>
+                      <div className="position-absolute  bottom-0 start-100">
+                        <img src={modalImg} alt="img" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
