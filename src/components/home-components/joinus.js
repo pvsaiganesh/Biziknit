@@ -6,7 +6,7 @@ const JoinUs = () => {
     <div className="bg-5 container-fluid d-flex flex-column flex-md-row  align-items-center p-5  text-white text-center text-md-start">
       <div className="row">
         <div className="d-block d-md-none col-12">
-          <p className="fs-5">Join Us For Meeting</p>
+          <p className="fs-5 fw-bold">Join Us For Meeting</p>
           <p className="fs-6">
             Visiting a Biziknit Chapter is free and gives you the chance to
             connect with quality business professionals from your local
@@ -14,7 +14,7 @@ const JoinUs = () => {
           </p>
         </div>
         <div className="d-none d-md-block col-8">
-          <p className="fs-5">
+          <p className="fs-5 fw-bold">
             Secure Your Spot! Be the Exclusive Business in Your Pincode.
           </p>
           <p className="fs-6">
