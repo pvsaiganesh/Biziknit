@@ -8,9 +8,9 @@ const Navbar = () => {
     <div className="header">
       <nav className="navbar navbar-expand-lg navbar-dark w-100">
         <div className="container-fluid">
-          <div className="navbar-brand  ps-0 ps-md-5 ">
+          <div className="ps-0 ps-md-5 ">
             <Link to={"/"} className="text-decoration-none text-start">
-              <img src={Logo} alt="img" className="logo" />
+              <img src={Logo} alt="img" className="logo img-fluid" />
             </Link>
           </div>
           <button
