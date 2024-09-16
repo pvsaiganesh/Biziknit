@@ -45,7 +45,7 @@ const RegCard = () => {
                   <div className="row">
                     <div className="col-md-8 text-white position-relative">
                       <p className="fs-4 fw-bold">Why You Should Register</p>
-                      <ul>
+                      <ul className="p-0 m-0">
                         <li className="fs-6">
                           <i class="bi bi-star-fill pe-3"></i>
                           <span className="fw-bold">
@@ -84,7 +84,7 @@ const RegCard = () => {
                       <Link to={"/register"}>
                         <button
                           type="submit"
-                          className="btn btn-light text-uppercase text-orange-color"
+                          className="btn btn-light text-uppercase text-orange-color mt-3"
                         >
                           Register Now
                         </button>
