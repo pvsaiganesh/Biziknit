@@ -9,10 +9,10 @@ const OurValues = () => {
         <div className="col-12 d-block d-md-none text-center">
           <img src={img} alt="img" className="img-fluid  p-5" />
         </div>
-        <div className="d-none d-md-block col-md-6">
+        <div className="d-none d-md-block col-md-4">
           <img src={img} alt="img" className="img-fluid" />
         </div>
-        <div className="col-12 col-md-6 d-flex flex-row justify-content-between align-items-start bg-white">
+        <div className="col-12 col-md-8 d-flex flex-row justify-content-between align-items-start bg-white">
           <div>
             <div className="text-start">
               <p className="fs-3 headings fw-bolder">Our Values</p>
