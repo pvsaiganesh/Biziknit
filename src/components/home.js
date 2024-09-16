@@ -20,7 +20,7 @@ const Home = () => {
     <div className="hero">
       <Navbar />
       <div id="home">
-        <div className="bg-2 p-5 pt-0 pb-0 ps-5 pe-5  gap-0 container-fluid">
+        <div className="bg-2 p-2 p-md-5 pt-md-0 pb-md-0 ps-md-5 pe-md-5  gap-0 container-fluid">
           <div className="row  d-flex flex-row jusity-content-center aling-items-center">
             <div className="text-light text-center text-md-start col-12 col-md-8 align-self-center">
               <div className=" pe-0 pe-md-5">
@@ -42,10 +42,10 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className=" d-none d-md-block  col-4 text-start">
+            <div className=" d-none d-md-block  col-4 text-start align-self-end">
               <img src={worker} alt="worker" className="img-fluid worker" />
             </div>
-            <div className="align-self-center d-none d-md-block  rounded-3 rounded-bottom-0 infos-container  p-4 ps-5 pe-5 mb-0 w-100">
+            <div className="align-self-center d-none d-md-block  rounded-3 rounded-bottom-0 infos-container p-2 p-md-4 ps-md-5 pe-md-5 mb-0 w-100">
               <div className="d-flex flex-row justify-content-around align-items-center">
                 <SmallInfoCard number={"10+"} title={"Businesses"} />
                 <SmallInfoCard number={"20+"} title={"Years of Experience"} />
@@ -55,7 +55,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="align-self-center d-md-none  bg-white   p-4 ps-5 pe-5 mb-0 w-100">
+        <div className="align-self-center d-md-none  bg-white   p-0 p-md-4 ps-md-5 pe-md-5 mb-0 w-100">
           <div className="d-flex flex-row justify-content-around align-items-center">
             <SmallInfoCard
               number={"10+"}

@@ -8,7 +8,7 @@ const TestimonialItem = ({ id, review, name, testiImg, slideOption }) => {
   return (
     <div className={testimonialClassName} data-bs-interval={5000}>
       <div
-        className="d-flex flex-column flex-md-row justify-content-center  text-start w-100"
+        className="d-flex flex-column flex-md-row justify-content-center  text-start"
         data-bs-slide={slideOption}
       >
         <div className="pe-5 ps-5">

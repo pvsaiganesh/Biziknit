@@ -4,7 +4,7 @@ import "./ourvalues.scss";
 
 const WhyJoin = () => {
   return (
-    <div className=" p-5 bg-white">
+    <div className="p-2 p-md-5 bg-white">
       <div className="pb-3 d-md-none">
         <img src={img} alt="img" className="img-fluid" />
       </div>

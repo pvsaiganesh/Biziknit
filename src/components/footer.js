@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="p-5 bg-5 mt-5">
+    <div className="p-2 p-md-5 bg-5 mt-5">
       <div className="flex-fill text-center">
         <Link to="/">
           <img src={Logo} alt="img" className="img-fluid " />

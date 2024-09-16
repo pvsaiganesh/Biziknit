@@ -6,7 +6,7 @@ import modalImg from "../../assets/modal-img.svg";
 const RegCard = () => {
   return (
     <div className="bg-4 ">
-      <div className="p-5 text-white d-flex flex-column justify-content-center align-items-center">
+      <div className="p-2 p-md-5 text-white d-flex flex-column justify-content-center align-items-center">
         <div className="d-flex flex-column flex-md-row justify-content-between w-100 text-center text-md-start">
           <div>
             <p className="fs-5 fw-bold mb-0">

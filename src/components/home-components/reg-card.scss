@@ -10,9 +10,6 @@
 .register-link {
   cursor: pointer;
 }
-ul {
-  list-style-type: none;
-}
 .vertical-alignment-helper {
   display: table;
   height: 100%;
@@ -21,6 +18,9 @@ ul {
 }
 .model {
   font-family: "mont-serret";
+  ul {
+    list-style-type: none;
+  }
 }
 .vertical-align-center {
   /* To center vertically */

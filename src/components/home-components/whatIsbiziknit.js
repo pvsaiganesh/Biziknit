@@ -5,7 +5,7 @@ import "./whatisbiziknit.scss";
 const WhatIsBiziknit = () => {
   return (
     <div className="container-fluid">
-      <div className="row p-5">
+      <div className="row p-2 p-md-5">
         <div className="d-block d-md-none  col-12 ">
           <img src={img} alt="img" className="img-fluid p-5" />
         </div>

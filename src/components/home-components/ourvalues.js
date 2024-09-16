@@ -5,7 +5,7 @@ import "./ourvalues.scss";
 const OurValues = () => {
   return (
     <div className="container-fluid">
-      <div className="row p-5">
+      <div className="row p-2 p-md-5">
         <div className="col-12 d-block d-md-none text-center">
           <img src={img} alt="img" className="img-fluid  p-5" />
         </div>
