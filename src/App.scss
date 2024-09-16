@@ -8,7 +8,10 @@
   src: local("Montserret"),
     url(../fonts/Montserrat-Regular.ttf) format("truetype");
 }
-
+@font-face {
+  font-family: "open-sans"; /*Can be any text*/
+  src: local("Open-Sans"), url(../fonts/OpenSans-Regular.ttf) format("truetype");
+}
 * {
   font-family: "sansation-font" !important;
   font-size: 20px !important;
@@ -31,6 +34,11 @@
   /* Start at the first grid row line, and take up 2 rows */
   grid-row: 1 / span 2;
 }
+
+.headings {
+  font-family: "open-sans" !important;
+}
+
 .hero {
   grid-column-start: 1;
   grid-row-start: 2;

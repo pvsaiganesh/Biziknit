@@ -14,7 +14,7 @@ const JoinUs = () => {
           </p>
         </div>
         <div className="d-none d-md-block col-8">
-          <p className="fs-5 fw-bold">
+          <p className="fs-5 fw-bold headings">
             Secure Your Spot! Be the Exclusive Business in Your Pincode.
           </p>
           <p className="fs-6">

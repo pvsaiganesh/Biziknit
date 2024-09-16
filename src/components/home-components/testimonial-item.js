@@ -12,7 +12,9 @@ const TestimonialItem = ({ id, review, name, testiImg, slideOption }) => {
         data-bs-slide={slideOption}
       >
         <div className="pe-5 ps-5">
-          <p className="fs-5 title pb-2 fw-bold">Business Testimonial</p>
+          <p className="fs-5 title pb-2 fw-bold headings text-orange-color">
+            Business Testimonial
+          </p>
           <img
             src={testiImg}
             alt="img"

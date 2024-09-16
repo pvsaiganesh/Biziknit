@@ -10,7 +10,9 @@ const WhyJoin = () => {
       </div>
       <div className="d-flex flex-row justify-content-between align-items-center">
         <div className="text-start">
-          <p className="fs-4 headings fw-bolder">Why Join Biziknit?</p>
+          <p className="fs-4 headings fw-bolder text-orange-color">
+            Why Join Biziknit?
+          </p>
           <ul>
             <li className="p-2">
               <span className="fw-bolder">Exclusive Coverage: </span> Be the

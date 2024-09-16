@@ -15,7 +15,9 @@ const OurValues = () => {
         <div className="col-12 col-md-8 d-flex flex-row justify-content-between align-items-start bg-white">
           <div>
             <div className="text-start">
-              <p className="fs-3 headings fw-bolder">Our Values</p>
+              <p className="fs-3 fw-bolder headings text-orange-color">
+                Our Values
+              </p>
 
               <ul>
                 <li className="p-2">

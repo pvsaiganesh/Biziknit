@@ -11,7 +11,9 @@ const WhatIsBiziknit = () => {
         </div>
         <div className="bg-white col-12 col-md-6">
           <div className="text-start ">
-            <p className="fs-4 headings fw-bolder">What is Biziknit?</p>
+            <p className="fs-4 headings fw-bolder text-orange-color">
+              What is Biziknit?
+            </p>
             <p className="fs-6">
               Biziknit is a group of ambitious business owners who meet every
               week over breakfast and help each other to optimize and develop
@@ -19,7 +21,9 @@ const WhatIsBiziknit = () => {
             </p>
           </div>
           <div className="text-start">
-            <p className="fs-5 headings fw-bolder">Supercharge your Business</p>
+            <p className="fs-5 headings fw-bolder text-orange-color">
+              Supercharge your Business
+            </p>
             <p className="fs-6">
               Gain a competitive edge as the only business of your kind in your
               area. Benefit from referrals and auto lead generation to grow your
@@ -27,7 +31,7 @@ const WhatIsBiziknit = () => {
             </p>
           </div>
           <div className="text-start">
-            <p className="fs-5 headings fw-bolder">
+            <p className="fs-5 headings fw-bolder text-orange-color">
               Have a Meaningful Social life
             </p>
             <p className="fs-6">
@@ -37,7 +41,7 @@ const WhatIsBiziknit = () => {
             </p>
           </div>
           <div className="text-start">
-            <p className="fs-5 headings fw-bolder">
+            <p className="fs-5 headings fw-bolder text-orange-color">
               Accelerate your Personal Growth
             </p>
             <p className="fs-6">

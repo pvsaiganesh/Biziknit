@@ -9,7 +9,7 @@ const RegCard = () => {
       <div className="p-2 p-md-5 text-white d-flex flex-column justify-content-center align-items-center">
         <div className="d-flex flex-column flex-md-row justify-content-between w-100 text-center text-md-start">
           <div>
-            <p className="fs-5 fw-bold mb-0">
+            <p className="fs-5 fw-bold mb-0 headings">
               Join us and be a part of the potential business group
             </p>
             <p className="fs-6">Helping you in finding potential prospects</p>
