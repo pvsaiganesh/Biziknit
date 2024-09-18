@@ -1,17 +1,16 @@
 import React, { useState } from "react";
 import "./login.scss";
-import InputComp from "./register-components/input-comp";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
-  const [username, setUsername] = useState("");
+  const [phonenumber, setPhoneNumber] = useState("");
   const [password, setPassword] = useState("");
   const ele1 = {
     label: "Phone Number",
-    type: "text",
+    type: "number",
     onChange: (e) => {
-      setUsername(e.target.value);
+      setPhoneNumber(e.target.value);
     },
   };
   const ele2 = {
@@ -26,14 +25,19 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3001/login", { username, password })
+      .post("http://localhost:3001/login", { phonenumber, password })
       .then((result) => {
-        console.log(result);
         if (result.data === "Success") {
-          navigate("/home");
+          navigate("/");
         } else {
-          navigate("/register");
-          alert("You are not registered to this service");
+          // navigate("/register");
+          if (
+            window.confirm(
+              "You are not registered with Biziknit. Do you want to Register with us."
+            )
+          ) {
+            navigate("/register");
+          }
         }
       })
       .catch((err) => console.log(err));
@@ -74,12 +78,38 @@ const Login = () => {
         <form onSubmit={handleSubmit}>
           <div className="d-flex flex-row justify-content-center justify-content-md-start align-items-center">
             <div className="p-3  p-md-5 border-rounded  shadow flex-fill text-center text-md-start ms-5 me-5">
-              <p className="fs-3 m-0 fw-bold">Login</p>
+              <p className="fs-3 m-0 fw-bold headings">Login</p>
               <p className="fs-6 ">Enter your details</p>
               <div className="text-start d-flex flex-column flex-md-row justify-content-start flex-fill">
                 <div className="d-flex flex-column flex-fill">
-                  <InputComp {...ele1} />
-                  <InputComp {...ele2} />
+                  <div className=" p-1 pb-1 ps-1 pe-1 w-100">
+                    <div className="input-group-sm">
+                      <label htmlFor="basic-url" className="form-label">
+                        {ele1.label}
+                      </label>
+                      <input
+                        type={ele1.type}
+                        onChange={ele1.onChange}
+                        className="form-control"
+                        id="username"
+                        aria-describedby="basic-addon3 basic-addon4 button-addon2"
+                      />
+                    </div>
+                  </div>
+                  <div className=" p-1 pb-1 ps-1 pe-1 w-100">
+                    <div className="input-group-sm">
+                      <label htmlFor="basic-url" className="form-label">
+                        {ele2.label}
+                      </label>
+                      <input
+                        type={ele2.type}
+                        onChange={ele2.onChange}
+                        className="form-control"
+                        id="password"
+                        aria-describedby="basic-addon3 basic-addon4 button-addon2"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="mt-3 text-start  ps-2 ">
@@ -90,8 +120,10 @@ const Login = () => {
                   Login
                 </button>
                 <p className="pt-3">
-                  Don’t have an Account?{" "}
-                  <span className="text-orange-color">Register</span>
+                  Don’t have an Account?
+                  <Link to="/register" className="text-decoration-none">
+                    <span className="text-orange-color">Register</span>
+                  </Link>
                 </p>
               </div>
             </div>
